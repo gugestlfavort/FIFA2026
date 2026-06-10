@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Cup 2026 — Daily Predictions</title>
+<style>
+  :root {
+    --bg: #0d1117; --card: #161b22; --card2: #1c2129; --border: #2d333b;
+    --text: #e6edf3; --muted: #8b949e; --accent: #3fb950; --blue: #58a6ff;
+    --amber: #d29922; --red: #f85149;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 24px 16px 60px;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+  h1 { font-size: 26px; letter-spacing: -0.5px; }
+  h2 { font-size: 18px; margin: 36px 0 12px; }
+  .sub { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  .sub a { color: var(--blue); text-decoration: none; }
+  .badge { display: inline-block; padding: 1px 8px; border-radius: 10px;
+           font-size: 12px; background: var(--card2); border: 1px solid var(--border);
+           color: var(--muted); margin-left: 6px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+           gap: 12px; }
+  .card { background: var(--card); border: 1px solid var(--border);
+          border-radius: 10px; padding: 14px 16px; overflow-x: auto; }
+  .teams { display: flex; justify-content: space-between; align-items: center;
+           font-size: 17px; font-weight: 600; }
+  .teams .mid { color: var(--muted); font-size: 12px; font-weight: 400;
+                text-align: center; }
+  .pbar { display: flex; height: 22px; border-radius: 6px; overflow: hidden;
+          margin: 10px 0 4px; font-size: 11.5px; font-weight: 600; color: #fff; }
+  .pbar div { display: flex; align-items: center; justify-content: center;
+              min-width: 0; overflow: hidden; white-space: nowrap; }
+  .ph { background: #2f6f3f; } .pd { background: #4d5566; } .pa { background: #7a4dab; }
+  .legend { display: flex; justify-content: space-between; font-size: 12px;
+            color: var(--muted); }
+  .meta-row { display: flex; justify-content: space-between; font-size: 12px;
+              color: var(--muted); margin-top: 8px; flex-wrap: wrap; gap: 4px;}
+  .result { font-size: 22px; font-weight: 700; text-align: center; margin: 6px 0;
+            color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th, td { padding: 6px 8px; text-align: right; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 500; font-size: 12px; }
+  th:first-child, td:first-child { text-align: left; }
+  .bar-cell { position: relative; }
+  .mini-bar { position: absolute; left: 0; top: 15%; height: 70%;
+              background: rgba(63,185,80,.18); border-radius: 3px; z-index: 0; }
+  .groups-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                 gap: 12px; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+          gap: 10px; margin-bottom: 14px; }
+  .kpi { background: var(--card2); border: 1px solid var(--border);
+         border-radius: 8px; padding: 10px 12px; }
+  .kpi .v { font-size: 21px; font-weight: 700; }
+  .kpi .l { font-size: 11.5px; color: var(--muted); }
+  .note { font-size: 12.5px; color: var(--muted); margin-top: 10px; }
+  button { background: var(--card2); color: var(--text); border: 1px solid var(--border);
+           border-radius: 6px; padding: 5px 14px; cursor: pointer; font-size: 13px; }
+  button:hover { border-color: var(--muted); }
+  .delta-up { color: var(--accent); } .delta-down { color: var(--red); }
+  #loading { color: var(--muted); padding: 40px 0; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>⚽ World Cup 2026 — Daily Predictions</h1>
+  <div class="sub" id="updated">loading…</div>
+  <div class="sub">Model: time-decayed Dixon-Coles + Elo blend + market odds ·
+    <a id="refresh-link" href="https://github.com/gugestlfavort/FIFA2026/actions/workflows/predict.yml" target="_blank">refresh now ↗</a> (Run workflow → green button)</div>
+
+  <div id="loading">Loading predictions…</div>
+  <div id="content" style="display:none">
+    <h2 id="today-title">Today's matches</h2>
+    <div class="cards" id="today-cards"></div>
+
+    <h2>Tournament forecast <span class="badge" id="sim-badge"></span></h2>
+    <div class="card">
+      <table id="standings"></table>
+      <div style="text-align:center;margin-top:10px">
+        <button id="toggle-all">Show all 48 teams</button>
+      </div>
+      <div class="note">“Market” is the bookmaker-implied title probability
+        (vig removed) — shown side by side so you can see where the model
+        disagrees with the betting market.</div>
+    </div>
+
+    <h2>Groups</h2>
+    <div class="groups-grid" id="groups"></div>
+
+    <h2>Should you trust it? <span class="badge">model KPIs</span></h2>
+    <div class="card" id="trust"></div>
+
+    <div class="note" style="margin-top:24px">
+      Probabilities from 10,000 Monte Carlo simulations of all 104 matches,
+      refit daily on the latest results. Sources: international results
+      dataset (1872–today), self-computed World Football Elo, The Odds API
+      (median of EU bookmakers, de-vigged). Built with Claude Code.
+    </div>
+  </div>
+</div>
+<script>
+const pct = (x, d=0) => (100 * x).toFixed(d) + '%';
+
+function probBar(p) {
+  const seg = (cls, v, label) =>
+    `<div class="${cls}" style="flex:${Math.max(v, 0.001)}">${v >= 0.12 ? label + ' ' + pct(v) : ''}</div>`;
+  return `<div class="pbar">${seg('ph', p.home, '1')}${seg('pd', p.draw, 'X')}${seg('pa', p.away, '2')}</div>`;
+}
+
+function matchCard(m) {
+  let html = `<div class="card">
+    <div class="teams">
+      <span>${m.home_flag} ${m.home}</span>
+      <span class="mid">${m.group ? 'Group ' + m.group : m.stage}<br>${m.kickoff_local}</span>
+      <span>${m.away} ${m.away_flag}</span>
+    </div>`;
+  if (m.result) html += `<div class="result">${m.result[0]} – ${m.result[1]}</div>`;
+  if (m.blend) {
+    html += probBar(m.blend);
+    html += `<div class="legend"><span>${m.home} win</span><span>draw</span><span>${m.away} win</span></div>`;
+  }
+  if (m.model && m.market) {
+    html += `<div class="meta-row"><span>model ${pct(m.model.home)}/${pct(m.model.draw)}/${pct(m.model.away)}</span>
+             <span>market ${pct(m.market.home)}/${pct(m.market.draw)}/${pct(m.market.away)} (${m.market.books} books)</span></div>`;
+  }
+  if (m.top_scores) {
+    html += `<div class="meta-row"><span>likely: ${m.top_scores.map(s => s.score + ' (' + pct(s.p) + ')').join(', ')}</span></div>`;
+  }
+  html += `<div class="meta-row"><span>${m.venue}${m.city ? ', ' + m.city : ''}</span>`;
+  if (m.context) html += `<span>advance: ${pct(m.context.home_advance)} / ${pct(m.context.away_advance)}</span>`;
+  html += `</div></div>`;
+  return html;
+}
+
+function standingsTable(rows, showAll) {
+  const data = showAll ? rows : rows.slice(0, 16);
+  let h = `<tr><th>Team</th><th>Grp</th><th>Elo</th><th>Advance</th><th>QF</th>
+           <th>SF</th><th>Final</th><th>Champion</th><th>Market</th></tr>`;
+  const maxC = rows[0].champion || 1e-9;
+  for (const r of data) {
+    const w = Math.min(100, 100 * r.champion / maxC);
+    h += `<tr><td>${r.flag} ${r.team}</td><td>${r.group}</td><td>${r.elo}</td>
+      <td>${pct(r.advance)}</td><td>${pct(r.qf)}</td><td>${pct(r.sf)}</td>
+      <td>${pct(r.final, 1)}</td>
+      <td class="bar-cell"><div class="mini-bar" style="width:${w}%"></div>
+          <span style="position:relative">${pct(r.champion, 1)}</span></td>
+      <td>${r.market_champion == null ? '—' : pct(r.market_champion, 1)}</td></tr>`;
+  }
+  return h;
+}
+
+function groupTable(g, rows) {
+  let h = `<div class="card"><b>Group ${g}</b><table>
+    <tr><th>Team</th><th>P</th><th>GD</th><th>Pts</th><th>Advance</th><th>Win grp</th></tr>`;
+  for (const r of rows) {
+    h += `<tr><td>${r.flag} ${r.team}</td><td>${r.p}</td><td>${r.gf - r.ga}</td>
+          <td><b>${r.pts}</b></td><td>${pct(r.advance)}</td><td>${pct(r.group_win)}</td></tr>`;
+  }
+  return h + '</table></div>';
+}
+
+function trustPanel(d) {
+  let h = '';
+  const lk = d.live_kpis || {};
+  if (lk.blend) {
+    const vsM = lk.market ? ` vs market ${lk.market.rps.toFixed(4)}` : '';
+    h += `<div class="kpis">
+      <div class="kpi"><div class="v">${lk.blend.n}</div><div class="l">WC matches scored so far</div></div>
+      <div class="kpi"><div class="v">${lk.blend.rps.toFixed(4)}</div><div class="l">live RPS${vsM} (lower = better)</div></div>
+      <div class="kpi"><div class="v">${pct(lk.blend.accuracy)}</div><div class="l">live accuracy (picked winner)</div></div>
+    </div>`;
+  } else {
+    h += `<div class="note">No completed matches yet — the live track record
+          starts after matchday 1. Below: how this exact model scored on
+          past tournaments it had never seen.</div>`;
+  }
+  const bt = d.backtest;
+  if (bt) {
+    const best = bt.summary[String(bt.best_w_dc)];
+    const elo = bt.summary['0.0'], dc = bt.summary['1.0'];
+    h += `<div class="kpis" style="margin-top:12px">
+      <div class="kpi"><div class="v">${best.rps.toFixed(4)}</div>
+        <div class="l">backtest RPS (blend) — WC22 + Euro24 + Copa24, ${best.n} matches</div></div>
+      <div class="kpi"><div class="v">${elo.rps.toFixed(4)} / ${dc.rps.toFixed(4)}</div>
+        <div class="l">baselines: pure Elo / pure Dixon-Coles</div></div>
+      <div class="kpi"><div class="v">${pct(best.accuracy)}</div>
+        <div class="l">backtest accuracy (~53% is strong for 3-way football)</div></div>
+    </div>`;
+    if (bt.calibration && bt.calibration.length) {
+      h += `<table style="margin-top:8px"><tr><th>Predicted</th><th>Observed</th><th>n</th><th></th></tr>`;
+      for (const b of bt.calibration) {
+        const diff = b.observed - b.predicted;
+        const cls = Math.abs(diff) < 0.07 ? '' : (diff > 0 ? 'delta-up' : 'delta-down');
+        h += `<tr><td>${pct(b.predicted)}</td><td class="${cls}">${pct(b.observed)}</td>
+              <td>${b.n}</td><td style="text-align:left;color:var(--muted)">${Math.abs(diff) < 0.07 ? 'well calibrated' : ''}</td></tr>`;
+      }
+      h += `</table><div class="note">Calibration: when the model said X%, how often it actually happened.</div>`;
+    }
+  }
+  return h;
+}
+
+async function load() {
+  const resp = await fetch('data/predictions.json?t=' + Date.now());
+  const d = await resp.json();
+  document.getElementById('updated').textContent =
+    `Last updated: ${d.generated_local} · showing ${d.show_date}` +
+    (d.is_next_matchday ? ' (next matchday)' : '');
+  document.getElementById('today-title').textContent =
+    (d.is_next_matchday ? 'Next matchday — ' : "Today's matches — ") + d.show_date;
+  document.getElementById('sim-badge').textContent =
+    `${d.meta.n_sims.toLocaleString()} sims · w_dc=${d.meta.w_dc} · w_market=${d.meta.w_market}`;
+  document.getElementById('today-cards').innerHTML =
+    d.today.length ? d.today.map(matchCard).join('') :
+    '<div class="card">No matches scheduled.</div>';
+  let showAll = false;
+  const tbl = document.getElementById('standings');
+  tbl.innerHTML = standingsTable(d.standings, showAll);
+  document.getElementById('toggle-all').onclick = (e) => {
+    showAll = !showAll;
+    tbl.innerHTML = standingsTable(d.standings, showAll);
+    e.target.textContent = showAll ? 'Show top 16' : 'Show all 48 teams';
+  };
+  document.getElementById('groups').innerHTML =
+    Object.entries(d.groups).map(([g, rows]) => groupTable(g, rows)).join('');
+  document.getElementById('trust').innerHTML = trustPanel(d);
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('content').style.display = '';
+}
+load().catch(e => {
+  document.getElementById('loading').textContent = 'Failed to load predictions: ' + e;
+});
+</script>
+</body>
+</html>
