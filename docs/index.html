@@ -75,8 +75,8 @@
 
   <div id="loading">Loading predictions…</div>
   <div id="content" style="display:none">
-    <h2 id="today-title">Today's matches</h2>
-    <div class="cards" id="today-cards"></div>
+    <h2 id="today-title">Next 48 hours</h2>
+    <div id="today-sections"></div>
 
     <h2>Tournament forecast <span class="badge" id="sim-badge"></span></h2>
     <div class="card">
@@ -131,10 +131,40 @@ function matchCard(m) {
   if (m.top_scores) {
     html += `<div class="meta-row"><span>likely: ${m.top_scores.map(s => s.score + ' (' + pct(s.p) + ')').join(', ')}</span></div>`;
   }
+  if (m.opened && m.blend && !m.completed) {
+    const moved = Math.abs(m.opened.home - m.blend.home) + Math.abs(m.opened.away - m.blend.away);
+    if (moved >= 0.01) {
+      const dir = m.blend.home > m.opened.home ? '▲ ' + m.home : '▲ ' + m.away;
+      html += `<div class="meta-row"><span>re-graded: opened ${pct(m.opened.home)}/${pct(m.opened.draw)}/${pct(m.opened.away)} → now (<span class="delta-up">${dir}</span>)</span></div>`;
+    } else {
+      html += `<div class="meta-row"><span>re-graded: unchanged since first published</span></div>`;
+    }
+  }
   html += `<div class="meta-row"><span>${m.venue}${m.city ? ', ' + m.city : ''}</span>`;
   if (m.context) html += `<span>advance: ${pct(m.context.home_advance)} / ${pct(m.context.away_advance)}</span>`;
-  html += `</div></div>`;
+  html += `</div>`;
+  if (!m.completed) {
+    html += `<div style="margin-top:10px;text-align:right">
+      <button onclick="window.open('https://github.com/gugestlfavort/FIFA2026/actions/workflows/predict.yml','_blank')"
+        title="Re-runs the full pipeline with the latest results and odds (~2 min) — refreshes every match, including this one">
+        ↻ Re-grade with latest data</button></div>`;
+  }
+  html += `</div>`;
   return html;
+}
+
+function daySections(d) {
+  const byDay = {};
+  for (const m of d.today) (byDay[m.date_local || d.show_dates[0]] ||= []).push(m);
+  const names = {[d.today_date]: 'Today'};
+  const tomorrow = new Date(d.today_date); tomorrow.setDate(tomorrow.getDate() + 1);
+  names[tomorrow.toISOString().slice(0, 10)] = 'Tomorrow';
+  return Object.keys(byDay).sort().map(day => {
+    const label = names[day] ? `${names[day]} — ${day}` : day;
+    return `<h2 style="margin-top:20px;font-size:15px;color:var(--muted)">${label}
+            <span class="badge">${byDay[day].length} matches</span></h2>
+            <div class="cards">${byDay[day].map(matchCard).join('')}</div>`;
+  }).join('');
 }
 
 function standingsTable(rows, showAll) {
@@ -209,14 +239,13 @@ async function load() {
   const resp = await fetch('data/predictions.json?t=' + Date.now());
   const d = await resp.json();
   document.getElementById('updated').textContent =
-    `Last updated: ${d.generated_local} · showing ${d.show_date}` +
-    (d.is_next_matchday ? ' (next matchday)' : '');
+    `Last updated: ${d.generated_local} · every probability on this page was computed from data as of that moment`;
   document.getElementById('today-title').textContent =
-    (d.is_next_matchday ? 'Next matchday — ' : "Today's matches — ") + d.show_date;
+    d.is_next_matchday ? 'Next matchday' : 'Next 48 hours';
   document.getElementById('sim-badge').textContent =
     `${d.meta.n_sims.toLocaleString()} sims · w_dc=${d.meta.w_dc} · w_market=${d.meta.w_market}`;
-  document.getElementById('today-cards').innerHTML =
-    d.today.length ? d.today.map(matchCard).join('') :
+  document.getElementById('today-sections').innerHTML =
+    d.today.length ? daySections(d) :
     '<div class="card">No matches scheduled.</div>';
   let showAll = false;
   const tbl = document.getElementById('standings');

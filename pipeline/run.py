@@ -112,9 +112,15 @@ def update_log(sched, fixtures_probs, now_utc):
         if entry is None and not started and eid in fixtures_probs:
             log[eid] = {"home": r.home, "away": r.away,
                         "kickoff_utc": r.kickoff_utc.isoformat(),
-                        "stage": r.stage, **fixtures_probs[eid]}
+                        "stage": r.stage, **fixtures_probs[eid],
+                        "opened": dict(fixtures_probs[eid]["blend"])}
         elif entry is not None and not started and eid in fixtures_probs:
-            entry.update(fixtures_probs[eid])  # refresh until kickoff
+            # first-published probs are immutable; backfill from the entry's
+            # previous blend for log entries that predate the feature
+            opened = entry.get("opened") or dict(
+                entry.get("blend") or fixtures_probs[eid]["blend"])
+            entry.update(fixtures_probs[eid])
+            entry["opened"] = opened
         if entry is not None and r.completed and "result" not in entry:
             entry["result"] = [int(r.home_score), int(r.away_score)]
 
@@ -149,7 +155,7 @@ def update_log(sched, fixtures_probs, now_utc):
                          "n": int(len(g))}
     with open(path, "w") as f:
         json.dump(log, f, indent=1)
-    return live
+    return live, log
 
 
 def main():
@@ -245,23 +251,28 @@ def main():
                            key=lambda x: (-x["pts"], -(x["gf"] - x["ga"]),
                                           -x["gf"], -x["advance"]))
 
-    # --- today's matches (or next matchday if none today) ---
+    live_kpis, log = update_log(sched, fixtures_probs, now_utc)
+
+    # --- matches from start of today (local) to now + 48h ---
+    window_end = now_utc + pd.Timedelta(hours=48)
     local_dates = sched["kickoff_utc"].dt.tz_convert(TZ).dt.date
-    show_date = today_local
-    if not (local_dates == today_local).any():
+    in_window = ((local_dates >= today_local)
+                 & (sched["kickoff_utc"] <= window_end))
+    show_dates = sorted(set(local_dates[in_window]))
+    if not show_dates:  # nothing within 48h: fall back to next matchday
         upcoming = sorted(d for d in local_dates if d > today_local)
-        if upcoming:
-            show_date = upcoming[0]
+        show_dates = upcoming[:1]
     today = []
     for r in sched.itertuples(index=False):
         local = r.kickoff_utc.tz_convert(TZ)
-        if local.date() != show_date:
+        if local.date() not in show_dates or r.kickoff_utc > window_end:
             continue
         eid = str(r.event_id)
         entry = {
             "home": r.home, "away": r.away,
             "home_flag": FLAGS.get(r.home, ""), "away_flag": FLAGS.get(r.away, ""),
             "kickoff_local": local.strftime("%H:%M"),
+            "date_local": str(local.date()),
             "kickoff_utc": r.kickoff_utc.isoformat(),
             "venue": r.venue, "city": r.city, "group": r.group,
             "stage": r.stage, "state": r.state,
@@ -272,6 +283,9 @@ def main():
         if eid in fixtures_probs:
             entry.update(fixtures_probs[eid])
             entry["top_scores"] = top_scorelines(matrices[eid])
+            opened = log.get(eid, {}).get("opened")
+            if opened:
+                entry["opened"] = opened
             if r.home in TEAM_GROUP:
                 entry["context"] = {
                     "home_advance": round(sim[r.home]["advance"], 4),
@@ -280,8 +294,6 @@ def main():
                     "away_champion": round(sim[r.away]["champion"], 4),
                 }
         today.append(entry)
-
-    live_kpis = update_log(sched, fixtures_probs, now_utc)
 
     # --- tournament odds table ---
     standings = []
@@ -305,8 +317,10 @@ def main():
         "generated_utc": now_utc.isoformat(),
         "generated_local": now_utc.tz_convert(TZ).strftime("%Y-%m-%d %H:%M %Z"),
         "today_date": str(today_local),
-        "show_date": str(show_date),
-        "is_next_matchday": show_date != today_local,
+        "show_dates": [str(d) for d in show_dates],
+        "window_hours": 48,
+        "is_next_matchday": (bool(show_dates)
+                             and show_dates[0] != today_local),
         "today": today,
         "standings": standings,
         "groups": tables,
