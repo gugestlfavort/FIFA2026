@@ -16,8 +16,6 @@ import numpy as np
 
 from .teams import GROUPS, R32, R16, QF, SF, THIRD_SLOTS
 
-ROUND_NAMES = ["r32", "r16", "qf", "sf", "final", "champion"]
-
 
 def _sample_scores(matrix, n, rng):
     """n samples of (home_goals, away_goals) from a score matrix."""

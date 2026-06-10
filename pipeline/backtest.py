@@ -20,7 +20,7 @@ from .model import (fit_dixon_coles, fit_elo_goal_model, elo_history,
 from .sources import fetch_results
 
 TOURNAMENTS = [
-    ("World Cup 2022", "FIFA World Cup", "2022-11-20", "2022-12-03"),
+    ("World Cup 2022", "FIFA World Cup", "2022-11-20", "2022-12-02"),
     ("Euro 2024", "UEFA Euro", "2024-06-14", "2024-06-27"),
     ("Copa América 2024", "Copa América", "2024-06-20", "2024-07-03"),
 ]
@@ -111,7 +111,9 @@ def main():
                 for t, g in sub.groupby("tournament")
             },
         }
-    best_w = min(summary, key=lambda w: summary[w]["rps"])
+    # Joint criterion: RPS and log loss are both proper scores; summing them
+    # avoids knife-edge ties in one metric picking a degenerate weight.
+    best_w = min(summary, key=lambda w: summary[w]["rps"] + summary[w]["logloss"])
 
     out = {
         "weights_tested": WEIGHTS,
@@ -132,7 +134,7 @@ def main():
         s = summary[w]
         print(f"  w_dc={w:>4}: RPS={s['rps']:.4f} logloss={s['logloss']:.4f} "
               f"acc={s['accuracy']:.3f}")
-    print(f"best w_dc by RPS: {best_w}")
+    print(f"best w_dc by RPS+logloss: {best_w}")
 
 
 if __name__ == "__main__":

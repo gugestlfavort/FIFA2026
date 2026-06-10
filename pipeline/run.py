@@ -24,7 +24,7 @@ from .model import (fit_dixon_coles, fit_elo_goal_model, elo_history,
 from .simulate import simulate_tournament
 from .sources import (fetch_results, fetch_espn_schedule, fetch_match_odds,
                       fetch_outright_odds)
-from .teams import GROUPS, TEAM_GROUP, FLAGS, WC_TEAMS
+from .teams import GROUPS, TEAM_GROUP, FLAGS, WC_TEAMS, KO_VENUE_COUNTRY
 
 TZ = ZoneInfo("Europe/Zurich")
 W_MARKET = 0.5          # weight on de-vigged market 1x2 when odds exist
@@ -36,13 +36,21 @@ HOST_HFA = 1.0          # scale on fitted home coefficient for host nations
 
 
 def merge_espn_results(results: pd.DataFrame, sched: pd.DataFrame):
-    """Add completed WC matches from ESPN that the dataset lacks yet."""
-    have = set(zip(results["date"].dt.date, results["home_team"],
-                   results["away_team"]))
+    """Add completed WC matches from ESPN that the dataset lacks yet.
+
+    Dedupe by team pair with +/-1 day tolerance: martj42 records the local
+    date while ESPN kickoffs are UTC, so evening games differ by one day.
+    """
+    recent = results[results["date"] >= "2026-06-01"]
+    have = {}
+    for r in recent.itertuples(index=False):
+        have.setdefault(frozenset((r.home_team, r.away_team)), []).append(
+            r.date.date())
     add = []
     for r in sched[sched["completed"]].itertuples(index=False):
         d = r.kickoff_utc.date()
-        if (d, r.home, r.away) in have or (d, r.away, r.home) in have:
+        seen = have.get(frozenset((r.home, r.away)), [])
+        if any(abs((d - d2).days) <= 1 for d2 in seen):
             continue
         add.append({"date": pd.Timestamp(d), "home_team": r.home,
                     "away_team": r.away, "home_score": r.home_score,
@@ -119,6 +127,8 @@ def update_log(sched, fixtures_probs, now_utc):
             # previous blend for log entries that predate the feature
             opened = entry.get("opened") or dict(
                 entry.get("blend") or fixtures_probs[eid]["blend"])
+            if "market" not in fixtures_probs[eid]:
+                entry.pop("market", None)  # odds vanished: drop stale quote
             entry.update(fixtures_probs[eid])
             entry["opened"] = opened
         if entry is not None and r.completed and "result" not in entry:
@@ -210,16 +220,8 @@ def main():
                 fx["matrix"] = m
             group_fixtures.append(fx)
 
-    # --- knockout venue map (chronological ESPN order -> match numbers) ---
-    ko = sched[sched["stage"] == "knockout"].sort_values("kickoff_utc")
-    ko_venue = {}
-    if len(ko) >= 31:
-        nums = list(range(73, 105))  # includes 103 (3rd place)
-        for num, r in zip(nums, ko.itertuples(index=False)):
-            ko_venue[num] = r.venue_country
-
     def ko_prob(t1, t2, match_no):
-        vc = ko_venue.get(match_no, "United States")
+        vc = KO_VENUE_COUNTRY.get(match_no, "United States")
         return outcome_probs(match_matrix(bm, t1, t2, vc))
 
     sim = simulate_tournament(group_fixtures, ko_prob, n_sims=N_SIMS)

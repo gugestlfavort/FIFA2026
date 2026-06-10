@@ -211,8 +211,9 @@ function trustPanel(d) {
   }
   const bt = d.backtest;
   if (bt) {
-    const best = bt.summary[String(bt.best_w_dc)];
-    const elo = bt.summary['0.0'], dc = bt.summary['1.0'];
+    const key = (v) => Object.keys(bt.summary).find(k => parseFloat(k) === v);
+    const best = bt.summary[key(bt.best_w_dc)];
+    const elo = bt.summary[key(0)], dc = bt.summary[key(1)];
     h += `<div class="kpis" style="margin-top:12px">
       <div class="kpi"><div class="v">${best.rps.toFixed(4)}</div>
         <div class="l">backtest RPS (blend) — WC22 + Euro24 + Copa24, ${best.n} matches</div></div>

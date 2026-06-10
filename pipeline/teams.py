@@ -33,7 +33,8 @@ ALIASES = {
     "Bosnia-Herzegovina": "Bosnia and Herzegovina",
     "Bosnia & Herzegovina": "Bosnia and Herzegovina",
     "Congo DR": "DR Congo",
-    "Congo": "DR Congo",  # odds feeds sometimes shorten; only DR Congo qualified
+    # NOTE: do NOT alias bare "Congo" — that is Congo-Brazzaville, a
+    # different national team that appears in the training data.
     "Cabo Verde": "Cape Verde",
     "Curacao": "Curaçao",
     "USA": "United States",
@@ -51,9 +52,6 @@ def canon(name: str) -> str:
     name = name.strip()
     return ALIASES.get(name, name)
 
-
-# Host nations get (reduced) home advantage when playing in their own country.
-HOSTS = {"United States", "Mexico", "Canada"}
 
 # Venue city -> host country, for the 16 World Cup venues.
 VENUE_CITY_COUNTRY = {
@@ -115,6 +113,11 @@ R16 = {89: (74, 77), 90: (73, 75), 91: (76, 78), 92: (79, 80),
 QF = {97: (89, 90), 98: (93, 94), 99: (91, 92), 100: (95, 96)}
 SF = {101: (97, 98), 102: (99, 100)}
 FINAL = {104: (101, 102)}  # 103 is the third-place play-off
+
+# Host country per knockout match number (Wikipedia knockout-stage article;
+# everything not listed is in the United States).
+KO_VENUE_COUNTRY = {75: "Mexico", 79: "Mexico", 92: "Mexico",
+                    83: "Canada", 85: "Canada", 96: "Canada"}
 
 # Slots in R32 that take a third-placed team, with their allowed groups.
 THIRD_SLOTS = {m: set(src[1].split(":")[1])

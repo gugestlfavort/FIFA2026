@@ -16,7 +16,9 @@ ODDS_BASE = "https://api.the-odds-api.com/v4/sports"
 
 WC_START = dt.date(2026, 6, 11)
 WC_END = dt.date(2026, 7, 19)
-GROUP_STAGE_END = dt.date(2026, 6, 27)
+# Last group kickoff: June 27 ~22:00 local = ~04:00 UTC June 28.
+# First R32 kickoff: June 28 afternoon local = >=16:00 UTC June 28.
+GROUP_STAGE_CUTOFF_UTC = pd.Timestamp("2026-06-28 12:00", tz="UTC")
 
 CACHE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data_cache")
 
@@ -94,7 +96,7 @@ def fetch_espn_schedule() -> pd.DataFrame:
             "state": status.get("state", "pre"),
             "venue": venue.get("fullName", ""),
             "city": venue.get("address", {}).get("city", ""),
-            "stage": ("group" if kickoff.date() <= GROUP_STAGE_END
+            "stage": ("group" if kickoff < GROUP_STAGE_CUTOFF_UTC
                       else "knockout"),
         })
     df = pd.DataFrame(rows).sort_values("kickoff_utc").reset_index(drop=True)
