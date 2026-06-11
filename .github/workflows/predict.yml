@@ -17,9 +17,9 @@ jobs:
   predict:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -40,5 +40,8 @@ jobs:
             echo "no changes"
           else
             git commit -m "Update predictions $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # the remote may have moved while the pipeline ran; rebase our
+            # freshly generated data on top (ours wins on generated files)
+            git pull --rebase -X theirs origin main
             git push
           fi
