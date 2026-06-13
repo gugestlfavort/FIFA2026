@@ -1,125 +1,15 @@
 {
- "generated_utc": "2026-06-12T12:13:27.058587+00:00",
- "generated_local": "2026-06-12 14:13 CEST",
- "today_date": "2026-06-12",
+ "generated_utc": "2026-06-13T08:02:43.082282+00:00",
+ "generated_local": "2026-06-13 10:02 CEST",
+ "today_date": "2026-06-13",
  "show_dates": [
-  "2026-06-12",
   "2026-06-13",
-  "2026-06-14"
+  "2026-06-14",
+  "2026-06-15"
  ],
  "window_hours": 48,
  "is_next_matchday": false,
  "today": [
-  {
-   "home": "South Korea",
-   "away": "Czech Republic",
-   "home_flag": "\ud83c\uddf0\ud83c\uddf7",
-   "away_flag": "\ud83c\udde8\ud83c\uddff",
-   "kickoff_local": "04:00",
-   "date_local": "2026-06-12",
-   "kickoff_utc": "2026-06-12T02:00:00+00:00",
-   "venue": "Estadio Akron",
-   "city": "Guadalajara",
-   "group": "A",
-   "stage": "group",
-   "state": "post",
-   "completed": true,
-   "result": [
-    2,
-    1
-   ],
-   "model": {
-    "home": 0.4145,
-    "draw": 0.2884,
-    "away": 0.2971
-   },
-   "blend": {
-    "home": 0.4145,
-    "draw": 0.2884,
-    "away": 0.2971
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1366
-    },
-    {
-     "score": "1-0",
-     "p": 0.1112
-    },
-    {
-     "score": "0-0",
-     "p": 0.0971
-    }
-   ],
-   "opened": {
-    "home": 0.3655,
-    "draw": 0.2973,
-    "away": 0.3372
-   },
-   "context": {
-    "home_advance": 0.9591,
-    "away_advance": 0.5461,
-    "home_champion": 0.0026,
-    "away_champion": 0.0005
-   }
-  },
-  {
-   "home": "Canada",
-   "away": "Bosnia and Herzegovina",
-   "home_flag": "\ud83c\udde8\ud83c\udde6",
-   "away_flag": "\ud83c\udde7\ud83c\udde6",
-   "kickoff_local": "21:00",
-   "date_local": "2026-06-12",
-   "kickoff_utc": "2026-06-12T19:00:00+00:00",
-   "venue": "BMO Field",
-   "city": "Toronto",
-   "group": "B",
-   "stage": "group",
-   "state": "pre",
-   "completed": false,
-   "model": {
-    "home": 0.6497,
-    "draw": 0.2254,
-    "away": 0.125
-   },
-   "market": {
-    "home": 0.5245,
-    "draw": 0.2719,
-    "away": 0.2036,
-    "books": 24
-   },
-   "blend": {
-    "home": 0.5871,
-    "draw": 0.2486,
-    "away": 0.1643
-   },
-   "top_scores": [
-    {
-     "score": "1-0",
-     "p": 0.1243
-    },
-    {
-     "score": "2-0",
-     "p": 0.1217
-    },
-    {
-     "score": "1-1",
-     "p": 0.1164
-    }
-   ],
-   "opened": {
-    "home": 0.5825,
-    "draw": 0.2505,
-    "away": 0.167
-   },
-   "context": {
-    "home_advance": 0.9209,
-    "away_advance": 0.5576,
-    "home_champion": 0.0037,
-    "away_champion": 0.0
-   }
-  },
   {
    "home": "United States",
    "away": "Paraguay",
@@ -132,36 +22,34 @@
    "city": "Inglewood, California",
    "group": "D",
    "stage": "group",
-   "state": "pre",
-   "completed": false,
+   "state": "post",
+   "completed": true,
+   "result": [
+    4,
+    1
+   ],
    "model": {
-    "home": 0.3505,
-    "draw": 0.2938,
-    "away": 0.3557
-   },
-   "market": {
-    "home": 0.4592,
-    "draw": 0.2967,
-    "away": 0.2441,
-    "books": 24
+    "home": 0.4218,
+    "draw": 0.284,
+    "away": 0.2942
    },
    "blend": {
-    "home": 0.4048,
-    "draw": 0.2952,
-    "away": 0.2999
+    "home": 0.4218,
+    "draw": 0.284,
+    "away": 0.2942
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1396
+     "p": 0.135
     },
     {
      "score": "1-0",
-     "p": 0.118
+     "p": 0.108
     },
     {
      "score": "0-0",
-     "p": 0.1012
+     "p": 0.0919
     }
    ],
    "opened": {
@@ -170,10 +58,10 @@
     "away": 0.288
    },
    "context": {
-    "home_advance": 0.7437,
-    "away_advance": 0.6509,
-    "home_champion": 0.0025,
-    "away_champion": 0.002
+    "home_advance": 0.9726,
+    "away_advance": 0.3674,
+    "home_champion": 0.0068,
+    "away_champion": 0.0008
    }
   },
   {
@@ -191,29 +79,29 @@
    "state": "pre",
    "completed": false,
    "model": {
-    "home": 0.058,
-    "draw": 0.1372,
-    "away": 0.8048
+    "home": 0.0578,
+    "draw": 0.137,
+    "away": 0.8052
    },
    "market": {
-    "home": 0.0663,
-    "draw": 0.1419,
-    "away": 0.7918,
-    "books": 24
+    "home": 0.0677,
+    "draw": 0.1374,
+    "away": 0.7949,
+    "books": 25
    },
    "blend": {
-    "home": 0.0622,
-    "draw": 0.1395,
-    "away": 0.7983
+    "home": 0.0628,
+    "draw": 0.1372,
+    "away": 0.8001
    },
    "top_scores": [
     {
      "score": "0-2",
-     "p": 0.1344
+     "p": 0.1346
     },
     {
      "score": "0-3",
-     "p": 0.1188
+     "p": 0.1191
     },
     {
      "score": "0-1",
@@ -226,10 +114,10 @@
     "away": 0.8026
    },
    "context": {
-    "home_advance": 0.2043,
-    "away_advance": 0.9559,
+    "home_advance": 0.2041,
+    "away_advance": 0.9566,
     "home_champion": 0.0,
-    "away_champion": 0.0138
+    "away_champion": 0.0136
    }
   },
   {
@@ -247,33 +135,33 @@
    "state": "pre",
    "completed": false,
    "model": {
-    "home": 0.4119,
-    "draw": 0.3197,
-    "away": 0.2684
+    "home": 0.4102,
+    "draw": 0.3204,
+    "away": 0.2695
    },
    "market": {
-    "home": 0.5836,
-    "draw": 0.2479,
-    "away": 0.1685,
-    "books": 24
+    "home": 0.5637,
+    "draw": 0.2578,
+    "away": 0.1785,
+    "books": 25
    },
    "blend": {
-    "home": 0.4978,
-    "draw": 0.2838,
-    "away": 0.2184
+    "home": 0.487,
+    "draw": 0.2891,
+    "away": 0.224
    },
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1761
+     "p": 0.1729
     },
     {
      "score": "0-0",
-     "p": 0.1265
+     "p": 0.1292
     },
     {
      "score": "1-1",
-     "p": 0.1248
+     "p": 0.127
     }
    ],
    "opened": {
@@ -282,10 +170,10 @@
     "away": 0.2229
    },
    "context": {
-    "home_advance": 0.9779,
-    "away_advance": 0.8861,
-    "home_champion": 0.0819,
-    "away_champion": 0.0287
+    "home_advance": 0.9741,
+    "away_advance": 0.8851,
+    "home_champion": 0.073,
+    "away_champion": 0.0265
    }
   },
   {
@@ -304,32 +192,32 @@
    "completed": false,
    "model": {
     "home": 0.1581,
-    "draw": 0.2335,
-    "away": 0.6084
+    "draw": 0.2337,
+    "away": 0.6082
    },
    "market": {
-    "home": 0.1619,
-    "draw": 0.2264,
-    "away": 0.6117,
-    "books": 24
+    "home": 0.161,
+    "draw": 0.2196,
+    "away": 0.6194,
+    "books": 25
    },
    "blend": {
-    "home": 0.16,
-    "draw": 0.23,
-    "away": 0.61
+    "home": 0.1596,
+    "draw": 0.2266,
+    "away": 0.6138
    },
    "top_scores": [
     {
      "score": "0-1",
-     "p": 0.1192
+     "p": 0.12
     },
     {
      "score": "0-2",
-     "p": 0.1166
+     "p": 0.1174
     },
     {
      "score": "1-1",
-     "p": 0.1095
+     "p": 0.1079
     }
    ],
    "opened": {
@@ -338,8 +226,8 @@
     "away": 0.6302
    },
    "context": {
-    "home_advance": 0.1469,
-    "away_advance": 0.6726,
+    "home_advance": 0.1546,
+    "away_advance": 0.6684,
     "home_champion": 0.0,
     "away_champion": 0.0008
    }
@@ -359,20 +247,20 @@
    "state": "pre",
    "completed": false,
    "model": {
-    "home": 0.3163,
-    "draw": 0.2954,
-    "away": 0.3883
+    "home": 0.3156,
+    "draw": 0.2955,
+    "away": 0.3889
    },
    "market": {
-    "home": 0.1868,
-    "draw": 0.2519,
-    "away": 0.5614,
-    "books": 24
+    "home": 0.1829,
+    "draw": 0.2554,
+    "away": 0.5616,
+    "books": 25
    },
    "blend": {
-    "home": 0.2515,
-    "draw": 0.2736,
-    "away": 0.4748
+    "home": 0.2492,
+    "draw": 0.2755,
+    "away": 0.4753
    },
    "top_scores": [
     {
@@ -381,11 +269,11 @@
     },
     {
      "score": "1-1",
-     "p": 0.1289
+     "p": 0.1297
     },
     {
      "score": "1-2",
-     "p": 0.0998
+     "p": 0.0999
     }
    ],
    "opened": {
@@ -394,232 +282,456 @@
     "away": 0.4708
    },
    "context": {
-    "home_advance": 0.5623,
-    "away_advance": 0.7787,
-    "home_champion": 0.0019,
-    "away_champion": 0.0044
+    "home_advance": 0.5674,
+    "away_advance": 0.7894,
+    "home_champion": 0.002,
+    "away_champion": 0.007
+   }
+  },
+  {
+   "home": "Germany",
+   "away": "Cura\u00e7ao",
+   "home_flag": "\ud83c\udde9\ud83c\uddea",
+   "away_flag": "\ud83c\udde8\ud83c\uddfc",
+   "kickoff_local": "19:00",
+   "date_local": "2026-06-14",
+   "kickoff_utc": "2026-06-14T17:00:00+00:00",
+   "venue": "NRG Stadium",
+   "city": "Houston, Texas",
+   "group": "E",
+   "stage": "group",
+   "state": "pre",
+   "completed": false,
+   "model": {
+    "home": 0.8843,
+    "draw": 0.0873,
+    "away": 0.0284
+   },
+   "market": {
+    "home": 0.9211,
+    "draw": 0.0555,
+    "away": 0.0234,
+    "books": 24
+   },
+   "blend": {
+    "home": 0.9027,
+    "draw": 0.0714,
+    "away": 0.0259
+   },
+   "top_scores": [
+    {
+     "score": "3-0",
+     "p": 0.1385
+    },
+    {
+     "score": "2-0",
+     "p": 0.1296
+    },
+    {
+     "score": "4-0",
+     "p": 0.111
+    }
+   ],
+   "opened": {
+    "home": 0.9167,
+    "draw": 0.0621,
+    "away": 0.0211
+   },
+   "context": {
+    "home_advance": 0.9735,
+    "away_advance": 0.0775,
+    "home_champion": 0.0329,
+    "away_champion": 0.0
+   }
+  },
+  {
+   "home": "Netherlands",
+   "away": "Japan",
+   "home_flag": "\ud83c\uddf3\ud83c\uddf1",
+   "away_flag": "\ud83c\uddef\ud83c\uddf5",
+   "kickoff_local": "22:00",
+   "date_local": "2026-06-14",
+   "kickoff_utc": "2026-06-14T20:00:00+00:00",
+   "venue": "AT&T Stadium",
+   "city": "Arlington, Texas",
+   "group": "F",
+   "stage": "group",
+   "state": "pre",
+   "completed": false,
+   "model": {
+    "home": 0.3835,
+    "draw": 0.2982,
+    "away": 0.3183
+   },
+   "market": {
+    "home": 0.4808,
+    "draw": 0.2658,
+    "away": 0.2534,
+    "books": 24
+   },
+   "blend": {
+    "home": 0.4321,
+    "draw": 0.282,
+    "away": 0.2859
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1323
+    },
+    {
+     "score": "1-0",
+     "p": 0.1281
+    },
+    {
+     "score": "0-0",
+     "p": 0.1017
+    }
+   ],
+   "opened": {
+    "home": 0.4318,
+    "draw": 0.2823,
+    "away": 0.2859
+   },
+   "context": {
+    "home_advance": 0.9124,
+    "away_advance": 0.8278,
+    "home_champion": 0.0314,
+    "away_champion": 0.0194
+   }
+  },
+  {
+   "home": "Ivory Coast",
+   "away": "Ecuador",
+   "home_flag": "\ud83c\udde8\ud83c\uddee",
+   "away_flag": "\ud83c\uddea\ud83c\udde8",
+   "kickoff_local": "01:00",
+   "date_local": "2026-06-15",
+   "kickoff_utc": "2026-06-14T23:00:00+00:00",
+   "venue": "Lincoln Financial Field",
+   "city": "Philadelphia, Pennsylvania",
+   "group": "E",
+   "stage": "group",
+   "state": "pre",
+   "completed": false,
+   "model": {
+    "home": 0.1944,
+    "draw": 0.3316,
+    "away": 0.4741
+   },
+   "market": {
+    "home": 0.2634,
+    "draw": 0.3415,
+    "away": 0.3951,
+    "books": 25
+   },
+   "blend": {
+    "home": 0.2289,
+    "draw": 0.3365,
+    "away": 0.4346
+   },
+   "top_scores": [
+    {
+     "score": "0-0",
+     "p": 0.1817
+    },
+    {
+     "score": "0-1",
+     "p": 0.1725
+    },
+    {
+     "score": "1-1",
+     "p": 0.1311
+    }
+   ],
+   "opened": {
+    "home": 0.2318,
+    "draw": 0.3443,
+    "away": 0.4239
+   },
+   "context": {
+    "home_advance": 0.7855,
+    "away_advance": 0.9169,
+    "home_champion": 0.0014,
+    "away_champion": 0.0197
+   }
+  },
+  {
+   "home": "Sweden",
+   "away": "Tunisia",
+   "home_flag": "\ud83c\uddf8\ud83c\uddea",
+   "away_flag": "\ud83c\uddf9\ud83c\uddf3",
+   "kickoff_local": "04:00",
+   "date_local": "2026-06-15",
+   "kickoff_utc": "2026-06-15T02:00:00+00:00",
+   "venue": "Estadio BBVA",
+   "city": "Guadalupe",
+   "group": "F",
+   "stage": "group",
+   "state": "pre",
+   "completed": false,
+   "model": {
+    "home": 0.4071,
+    "draw": 0.2984,
+    "away": 0.2944
+   },
+   "market": {
+    "home": 0.5057,
+    "draw": 0.277,
+    "away": 0.2172,
+    "books": 25
+   },
+   "blend": {
+    "home": 0.4564,
+    "draw": 0.2877,
+    "away": 0.2558
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.135
+    },
+    {
+     "score": "1-1",
+     "p": 0.1344
+    },
+    {
+     "score": "0-0",
+     "p": 0.1062
+    }
+   ],
+   "opened": {
+    "home": 0.4609,
+    "draw": 0.2871,
+    "away": 0.2519
+   },
+   "context": {
+    "home_advance": 0.5658,
+    "away_advance": 0.3836,
+    "home_champion": 0.0005,
+    "away_champion": 0.0002
    }
   }
  ],
  "standings": [
   {
-   "team": "Argentina",
-   "flag": "\ud83c\udde6\ud83c\uddf7",
-   "group": "J",
-   "elo": 2190,
-   "advance": 0.9772,
-   "r16": 0.7071,
-   "qf": 0.572,
-   "sf": 0.4258,
-   "final": 0.2967,
-   "champion": 0.1964,
-   "market_champion": 0.0797
-  },
-  {
    "team": "Spain",
    "flag": "\ud83c\uddea\ud83c\uddf8",
    "group": "H",
    "elo": 2219,
-   "advance": 0.9927,
-   "r16": 0.7208,
-   "qf": 0.5317,
-   "sf": 0.4181,
-   "final": 0.2973,
-   "champion": 0.1887,
-   "market_champion": 0.1539
+   "advance": 0.9925,
+   "r16": 0.7171,
+   "qf": 0.5284,
+   "sf": 0.4138,
+   "final": 0.2965,
+   "champion": 0.1936,
+   "market_champion": 0.1517
+  },
+  {
+   "team": "Argentina",
+   "flag": "\ud83c\udde6\ud83c\uddf7",
+   "group": "J",
+   "elo": 2190,
+   "advance": 0.9779,
+   "r16": 0.7037,
+   "qf": 0.5651,
+   "sf": 0.422,
+   "final": 0.2959,
+   "champion": 0.1907,
+   "market_champion": 0.0793
   },
   {
    "team": "England",
    "flag": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
    "group": "L",
    "elo": 2090,
-   "advance": 0.969,
-   "r16": 0.6944,
-   "qf": 0.4484,
-   "sf": 0.2813,
-   "final": 0.1594,
-   "champion": 0.0869,
-   "market_champion": 0.107
+   "advance": 0.9699,
+   "r16": 0.6923,
+   "qf": 0.4565,
+   "sf": 0.2854,
+   "final": 0.1566,
+   "champion": 0.0868,
+   "market_champion": 0.1051
   },
   {
    "team": "France",
    "flag": "\ud83c\uddeb\ud83c\uddf7",
    "group": "I",
    "elo": 2125,
-   "advance": 0.9561,
-   "r16": 0.7056,
-   "qf": 0.4513,
-   "sf": 0.2849,
-   "final": 0.1552,
-   "champion": 0.0846,
-   "market_champion": 0.1539
+   "advance": 0.9538,
+   "r16": 0.7073,
+   "qf": 0.4606,
+   "sf": 0.2869,
+   "final": 0.151,
+   "champion": 0.0802,
+   "market_champion": 0.1558
   },
   {
    "team": "Brazil",
    "flag": "\ud83c\udde7\ud83c\uddf7",
    "group": "C",
    "elo": 2069,
-   "advance": 0.9779,
-   "r16": 0.6749,
-   "qf": 0.4579,
-   "sf": 0.2816,
-   "final": 0.1538,
-   "champion": 0.0819,
-   "market_champion": 0.0835
+   "advance": 0.9741,
+   "r16": 0.6637,
+   "qf": 0.4429,
+   "sf": 0.2685,
+   "final": 0.1389,
+   "champion": 0.073,
+   "market_champion": 0.0831
   },
   {
    "team": "Portugal",
    "flag": "\ud83c\uddf5\ud83c\uddf9",
    "group": "K",
    "elo": 2046,
-   "advance": 0.9414,
-   "r16": 0.6607,
-   "qf": 0.4013,
-   "sf": 0.2105,
-   "final": 0.1137,
-   "champion": 0.0563,
-   "market_champion": 0.0986
+   "advance": 0.9436,
+   "r16": 0.6654,
+   "qf": 0.4008,
+   "sf": 0.2213,
+   "final": 0.1208,
+   "champion": 0.0602,
+   "market_champion": 0.0991
   },
   {
    "team": "Colombia",
    "flag": "\ud83c\udde8\ud83c\uddf4",
    "group": "K",
    "elo": 2064,
-   "advance": 0.9114,
-   "r16": 0.6219,
-   "qf": 0.3513,
-   "sf": 0.1956,
-   "final": 0.1077,
-   "champion": 0.0492,
-   "market_champion": 0.0166
-  },
-  {
-   "team": "Netherlands",
-   "flag": "\ud83c\uddf3\ud83c\uddf1",
-   "group": "F",
-   "elo": 2010,
-   "advance": 0.907,
-   "r16": 0.4868,
-   "qf": 0.3053,
-   "sf": 0.1607,
-   "final": 0.0698,
-   "champion": 0.0295,
-   "market_champion": 0.045
+   "advance": 0.9139,
+   "r16": 0.6214,
+   "qf": 0.3582,
+   "sf": 0.1958,
+   "final": 0.1069,
+   "champion": 0.0496,
+   "market_champion": 0.0157
   },
   {
    "team": "Germany",
    "flag": "\ud83c\udde9\ud83c\uddea",
    "group": "E",
    "elo": 2004,
-   "advance": 0.9747,
-   "r16": 0.6455,
-   "qf": 0.3304,
-   "sf": 0.1759,
-   "final": 0.0748,
-   "champion": 0.0289,
-   "market_champion": 0.0532
+   "advance": 0.9735,
+   "r16": 0.643,
+   "qf": 0.3333,
+   "sf": 0.1831,
+   "final": 0.0787,
+   "champion": 0.0329,
+   "market_champion": 0.0529
+  },
+  {
+   "team": "Netherlands",
+   "flag": "\ud83c\uddf3\ud83c\uddf1",
+   "group": "F",
+   "elo": 2010,
+   "advance": 0.9124,
+   "r16": 0.4885,
+   "qf": 0.3115,
+   "sf": 0.169,
+   "final": 0.073,
+   "champion": 0.0314,
+   "market_champion": 0.0436
   },
   {
    "team": "Morocco",
    "flag": "\ud83c\uddf2\ud83c\udde6",
    "group": "C",
    "elo": 1985,
-   "advance": 0.8861,
-   "r16": 0.4982,
-   "qf": 0.2975,
-   "sf": 0.1605,
-   "final": 0.0702,
-   "champion": 0.0287,
-   "market_champion": 0.0151
+   "advance": 0.8851,
+   "r16": 0.496,
+   "qf": 0.3021,
+   "sf": 0.1519,
+   "final": 0.0675,
+   "champion": 0.0265,
+   "market_champion": 0.015
   },
   {
    "team": "Belgium",
    "flag": "\ud83c\udde7\ud83c\uddea",
    "group": "G",
    "elo": 1957,
-   "advance": 0.9476,
-   "r16": 0.6366,
-   "qf": 0.3604,
-   "sf": 0.1403,
-   "final": 0.0669,
-   "champion": 0.0262,
-   "market_champion": 0.0234
+   "advance": 0.9428,
+   "r16": 0.6282,
+   "qf": 0.351,
+   "sf": 0.1426,
+   "final": 0.0671,
+   "champion": 0.0264,
+   "market_champion": 0.0233
   },
   {
    "team": "Ecuador",
    "flag": "\ud83c\uddea\ud83c\udde8",
    "group": "E",
    "elo": 2028,
-   "advance": 0.9174,
-   "r16": 0.5351,
-   "qf": 0.2582,
-   "sf": 0.1254,
-   "final": 0.0508,
-   "champion": 0.0201,
-   "market_champion": 0.0097
-  },
-  {
-   "team": "Norway",
-   "flag": "\ud83c\uddf3\ud83c\uddf4",
-   "group": "I",
-   "elo": 1971,
-   "advance": 0.8555,
-   "r16": 0.4928,
-   "qf": 0.2423,
-   "sf": 0.1069,
-   "final": 0.0427,
-   "champion": 0.0178,
-   "market_champion": 0.0247
-  },
-  {
-   "team": "Uruguay",
-   "flag": "\ud83c\uddfa\ud83c\uddfe",
-   "group": "H",
-   "elo": 1976,
-   "advance": 0.8942,
-   "r16": 0.3586,
-   "qf": 0.1974,
-   "sf": 0.0955,
-   "final": 0.0415,
-   "champion": 0.0172,
-   "market_champion": 0.0105
+   "advance": 0.9169,
+   "r16": 0.5279,
+   "qf": 0.2571,
+   "sf": 0.1251,
+   "final": 0.0507,
+   "champion": 0.0197,
+   "market_champion": 0.0091
   },
   {
    "team": "Japan",
    "flag": "\ud83c\uddef\ud83c\uddf5",
    "group": "F",
    "elo": 1993,
-   "advance": 0.8316,
-   "r16": 0.4173,
-   "qf": 0.2372,
-   "sf": 0.1101,
-   "final": 0.0432,
-   "champion": 0.0159,
-   "market_champion": 0.0139
+   "advance": 0.8278,
+   "r16": 0.4081,
+   "qf": 0.239,
+   "sf": 0.1131,
+   "final": 0.0472,
+   "champion": 0.0194,
+   "market_champion": 0.015
+  },
+  {
+   "team": "Norway",
+   "flag": "\ud83c\uddf3\ud83c\uddf4",
+   "group": "I",
+   "elo": 1971,
+   "advance": 0.853,
+   "r16": 0.4942,
+   "qf": 0.2347,
+   "sf": 0.1055,
+   "final": 0.0397,
+   "champion": 0.0144,
+   "market_champion": 0.0253
+  },
+  {
+   "team": "Uruguay",
+   "flag": "\ud83c\uddfa\ud83c\uddfe",
+   "group": "H",
+   "elo": 1976,
+   "advance": 0.8978,
+   "r16": 0.3636,
+   "qf": 0.1993,
+   "sf": 0.0936,
+   "final": 0.0385,
+   "champion": 0.0144,
+   "market_champion": 0.0099
   },
   {
    "team": "Switzerland",
    "flag": "\ud83c\udde8\ud83c\udded",
    "group": "B",
    "elo": 1956,
-   "advance": 0.9559,
-   "r16": 0.5911,
-   "qf": 0.2588,
-   "sf": 0.1012,
-   "final": 0.0388,
-   "champion": 0.0138,
-   "market_champion": 0.0124
+   "advance": 0.9566,
+   "r16": 0.5993,
+   "qf": 0.2663,
+   "sf": 0.1042,
+   "final": 0.041,
+   "champion": 0.0136,
+   "market_champion": 0.0128
   },
   {
    "team": "Croatia",
    "flag": "\ud83c\udded\ud83c\uddf7",
    "group": "L",
    "elo": 1969,
-   "advance": 0.8746,
-   "r16": 0.4376,
-   "qf": 0.1899,
-   "sf": 0.0897,
-   "final": 0.0353,
+   "advance": 0.8737,
+   "r16": 0.43,
+   "qf": 0.179,
+   "sf": 0.0849,
+   "final": 0.0341,
    "champion": 0.0127,
    "market_champion": 0.0079
   },
@@ -628,142 +740,129 @@
    "flag": "\ud83c\uddf2\ud83c\uddfd",
    "group": "A",
    "elo": 1988,
-   "advance": 0.9889,
-   "r16": 0.5967,
-   "qf": 0.2674,
-   "sf": 0.1001,
-   "final": 0.0311,
-   "champion": 0.0096,
-   "market_champion": 0.0151
-  },
-  {
-   "team": "Senegal",
-   "flag": "\ud83c\uddf8\ud83c\uddf3",
-   "group": "I",
-   "elo": 1913,
-   "advance": 0.7207,
-   "r16": 0.3481,
-   "qf": 0.1504,
-   "sf": 0.0572,
-   "final": 0.0182,
-   "champion": 0.0044,
-   "market_champion": 0.0073
+   "advance": 0.9876,
+   "r16": 0.6183,
+   "qf": 0.2726,
+   "sf": 0.1029,
+   "final": 0.0367,
+   "champion": 0.0105,
+   "market_champion": 0.015
   },
   {
    "team": "Turkey",
    "flag": "\ud83c\uddf9\ud83c\uddf7",
    "group": "D",
    "elo": 1969,
-   "advance": 0.7787,
-   "r16": 0.4206,
-   "qf": 0.1697,
-   "sf": 0.0539,
-   "final": 0.0172,
-   "champion": 0.0044,
-   "market_champion": 0.0097
+   "advance": 0.7894,
+   "r16": 0.4254,
+   "qf": 0.1622,
+   "sf": 0.052,
+   "final": 0.0213,
+   "champion": 0.007,
+   "market_champion": 0.0096
+  },
+  {
+   "team": "United States",
+   "flag": "\ud83c\uddfa\ud83c\uddf8",
+   "group": "D",
+   "elo": 1878,
+   "advance": 0.9726,
+   "r16": 0.5488,
+   "qf": 0.2241,
+   "sf": 0.0611,
+   "final": 0.0212,
+   "champion": 0.0068,
+   "market_champion": 0.0173
+  },
+  {
+   "team": "Senegal",
+   "flag": "\ud83c\uddf8\ud83c\uddf3",
+   "group": "I",
+   "elo": 1913,
+   "advance": 0.7296,
+   "r16": 0.3577,
+   "qf": 0.1505,
+   "sf": 0.0584,
+   "final": 0.0187,
+   "champion": 0.0052,
+   "market_champion": 0.007
   },
   {
    "team": "Austria",
    "flag": "\ud83c\udde6\ud83c\uddf9",
    "group": "J",
    "elo": 1890,
-   "advance": 0.7938,
-   "r16": 0.2783,
-   "qf": 0.1256,
-   "sf": 0.049,
-   "final": 0.0164,
-   "champion": 0.0041,
-   "market_champion": 0.0049
+   "advance": 0.7847,
+   "r16": 0.2797,
+   "qf": 0.13,
+   "sf": 0.0468,
+   "final": 0.017,
+   "champion": 0.0051,
+   "market_champion": 0.0048
   },
   {
    "team": "Canada",
    "flag": "\ud83c\udde8\ud83c\udde6",
    "group": "B",
-   "elo": 1899,
-   "advance": 0.9209,
-   "r16": 0.4942,
-   "qf": 0.1817,
-   "sf": 0.0522,
-   "final": 0.0147,
-   "champion": 0.0037,
-   "market_champion": 0.0029
+   "elo": 1876,
+   "advance": 0.8713,
+   "r16": 0.4313,
+   "qf": 0.147,
+   "sf": 0.04,
+   "final": 0.0104,
+   "champion": 0.0031,
+   "market_champion": 0.0027
   },
   {
    "team": "Algeria",
    "flag": "\ud83c\udde9\ud83c\uddff",
    "group": "J",
    "elo": 1884,
-   "advance": 0.6974,
-   "r16": 0.2386,
-   "qf": 0.1029,
-   "sf": 0.036,
-   "final": 0.0118,
-   "champion": 0.0034,
-   "market_champion": 0.0019
-  },
-  {
-   "team": "South Korea",
-   "flag": "\ud83c\uddf0\ud83c\uddf7",
-   "group": "A",
-   "elo": 1904,
-   "advance": 0.9591,
-   "r16": 0.4645,
-   "qf": 0.1511,
-   "sf": 0.0437,
-   "final": 0.0117,
-   "champion": 0.0026,
-   "market_champion": 0.0027
-  },
-  {
-   "team": "United States",
-   "flag": "\ud83c\uddfa\ud83c\uddf8",
-   "group": "D",
-   "elo": 1827,
-   "advance": 0.7437,
-   "r16": 0.3608,
-   "qf": 0.129,
+   "advance": 0.704,
+   "r16": 0.2465,
+   "qf": 0.1066,
    "sf": 0.0348,
-   "final": 0.0099,
-   "champion": 0.0025,
-   "market_champion": 0.0115
+   "final": 0.0114,
+   "champion": 0.003,
+   "market_champion": 0.0018
   },
   {
    "team": "Iran",
    "flag": "\ud83c\uddee\ud83c\uddf7",
    "group": "G",
    "elo": 1897,
-   "advance": 0.725,
-   "r16": 0.3326,
-   "qf": 0.1098,
-   "sf": 0.0288,
-   "final": 0.0106,
-   "champion": 0.0024,
+   "advance": 0.7236,
+   "r16": 0.3403,
+   "qf": 0.1169,
+   "sf": 0.0364,
+   "final": 0.0104,
+   "champion": 0.0028,
    "market_champion": 0.0012
   },
   {
-   "team": "Paraguay",
-   "flag": "\ud83c\uddf5\ud83c\uddfe",
-   "group": "D",
-   "elo": 1919,
-   "advance": 0.6509,
-   "r16": 0.3115,
-   "qf": 0.1086,
-   "sf": 0.0345,
-   "final": 0.0108,
-   "champion": 0.002,
-   "market_champion": 0.0023
+   "team": "South Korea",
+   "flag": "\ud83c\uddf0\ud83c\uddf7",
+   "group": "A",
+   "elo": 1904,
+   "advance": 0.9571,
+   "r16": 0.475,
+   "qf": 0.1538,
+   "sf": 0.0459,
+   "final": 0.0115,
+   "champion": 0.0028,
+   "market_champion": 0.0029
   },
   {
    "team": "Australia",
    "flag": "\ud83c\udde6\ud83c\uddfa",
    "group": "D",
    "elo": 1902,
-   "advance": 0.5623,
-   "r16": 0.2669,
-   "qf": 0.0965,
-   "sf": 0.0287,
-   "final": 0.0071,
-   "champion": 0.0019,
+   "advance": 0.5674,
+   "r16": 0.2586,
+   "qf": 0.0855,
+   "sf": 0.0255,
+   "final": 0.0087,
+   "champion": 0.002,
    "market_champion": 0.0021
   },
   {
@@ -771,25 +870,38 @@
    "flag": "\ud83c\udde8\ud83c\uddee",
    "group": "E",
    "elo": 1815,
-   "advance": 0.7865,
-   "r16": 0.298,
-   "qf": 0.0915,
-   "sf": 0.0254,
-   "final": 0.0048,
-   "champion": 0.0012,
-   "market_champion": 0.0038
+   "advance": 0.7855,
+   "r16": 0.2895,
+   "qf": 0.0892,
+   "sf": 0.0243,
+   "final": 0.0065,
+   "champion": 0.0014,
+   "market_champion": 0.0037
   },
   {
    "team": "Egypt",
    "flag": "\ud83c\uddea\ud83c\uddec",
    "group": "G",
    "elo": 1810,
-   "advance": 0.7065,
-   "r16": 0.2738,
-   "qf": 0.0796,
-   "sf": 0.0194,
-   "final": 0.0049,
-   "champion": 0.0011,
+   "advance": 0.7066,
+   "r16": 0.283,
+   "qf": 0.0794,
+   "sf": 0.0179,
+   "final": 0.0037,
+   "champion": 0.001,
+   "market_champion": 0.0017
+  },
+  {
+   "team": "Paraguay",
+   "flag": "\ud83c\uddf5\ud83c\uddfe",
+   "group": "D",
+   "elo": 1867,
+   "advance": 0.3674,
+   "r16": 0.1318,
+   "qf": 0.0381,
+   "sf": 0.0119,
+   "final": 0.0029,
+   "champion": 0.0008,
    "market_champion": 0.0018
   },
   {
@@ -797,102 +909,115 @@
    "flag": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
    "group": "C",
    "elo": 1844,
-   "advance": 0.6726,
-   "r16": 0.2147,
-   "qf": 0.0747,
-   "sf": 0.0211,
-   "final": 0.0043,
+   "advance": 0.6684,
+   "r16": 0.2223,
+   "qf": 0.0797,
+   "sf": 0.0214,
+   "final": 0.005,
    "champion": 0.0008,
-   "market_champion": 0.0033
-  },
-  {
-   "team": "Czech Republic",
-   "flag": "\ud83c\udde8\ud83c\uddff",
-   "group": "A",
-   "elo": 1778,
-   "advance": 0.5461,
-   "r16": 0.1902,
-   "qf": 0.0523,
-   "sf": 0.0103,
-   "final": 0.002,
-   "champion": 0.0005,
-   "market_champion": 0.0014
-  },
-  {
-   "team": "Sweden",
-   "flag": "\ud83c\uddf8\ud83c\uddea",
-   "group": "F",
-   "elo": 1770,
-   "advance": 0.5754,
-   "r16": 0.159,
-   "qf": 0.0504,
-   "sf": 0.0124,
-   "final": 0.002,
-   "champion": 0.0003,
-   "market_champion": 0.0046
-  },
-  {
-   "team": "DR Congo",
-   "flag": "\ud83c\udde8\ud83c\udde9",
-   "group": "K",
-   "elo": 1763,
-   "advance": 0.3978,
-   "r16": 0.1094,
-   "qf": 0.0247,
-   "sf": 0.0059,
-   "final": 0.0011,
-   "champion": 0.0001,
-   "market_champion": 0.001
-  },
-  {
-   "team": "Jordan",
-   "flag": "\ud83c\uddef\ud83c\uddf4",
-   "group": "J",
-   "elo": 1775,
-   "advance": 0.2131,
-   "r16": 0.0412,
-   "qf": 0.0086,
-   "sf": 0.0012,
-   "final": 0.0001,
-   "champion": 0.0001,
-   "market_champion": 0.0006
+   "market_champion": 0.0035
   },
   {
    "team": "Uzbekistan",
    "flag": "\ud83c\uddfa\ud83c\uddff",
    "group": "K",
    "elo": 1820,
-   "advance": 0.3752,
-   "r16": 0.1006,
-   "qf": 0.0246,
-   "sf": 0.0054,
-   "final": 0.0014,
-   "champion": 0.0001,
+   "advance": 0.3759,
+   "r16": 0.1049,
+   "qf": 0.0272,
+   "sf": 0.006,
+   "final": 0.0015,
+   "champion": 0.0007,
    "market_champion": 0.0007
+  },
+  {
+   "team": "Czech Republic",
+   "flag": "\ud83c\udde8\ud83c\uddff",
+   "group": "A",
+   "elo": 1778,
+   "advance": 0.545,
+   "r16": 0.2015,
+   "qf": 0.0605,
+   "sf": 0.0108,
+   "final": 0.0022,
+   "champion": 0.0006,
+   "market_champion": 0.0013
+  },
+  {
+   "team": "Sweden",
+   "flag": "\ud83c\uddf8\ud83c\uddea",
+   "group": "F",
+   "elo": 1770,
+   "advance": 0.5658,
+   "r16": 0.1526,
+   "qf": 0.048,
+   "sf": 0.0138,
+   "final": 0.003,
+   "champion": 0.0005,
+   "market_champion": 0.0047
+  },
+  {
+   "team": "Tunisia",
+   "flag": "\ud83c\uddf9\ud83c\uddf3",
+   "group": "F",
+   "elo": 1738,
+   "advance": 0.3836,
+   "r16": 0.086,
+   "qf": 0.022,
+   "sf": 0.0052,
+   "final": 0.0012,
+   "champion": 0.0002,
+   "market_champion": 0.0012
+  },
+  {
+   "team": "Jordan",
+   "flag": "\ud83c\uddef\ud83c\uddf4",
+   "group": "J",
+   "elo": 1775,
+   "advance": 0.2011,
+   "r16": 0.0329,
+   "qf": 0.0072,
+   "sf": 0.0017,
+   "final": 0.0004,
+   "champion": 0.0001,
+   "market_champion": 0.0006
+  },
+  {
+   "team": "Panama",
+   "flag": "\ud83c\uddf5\ud83c\udde6",
+   "group": "L",
+   "elo": 1855,
+   "advance": 0.3912,
+   "r16": 0.0761,
+   "qf": 0.0153,
+   "sf": 0.0026,
+   "final": 0.0005,
+   "champion": 0.0001,
+   "market_champion": 0.0009
   },
   {
    "team": "Bosnia and Herzegovina",
    "flag": "\ud83c\udde7\ud83c\udde6",
    "group": "B",
-   "elo": 1651,
-   "advance": 0.5576,
-   "r16": 0.1258,
-   "qf": 0.0225,
-   "sf": 0.0026,
+   "elo": 1674,
+   "advance": 0.6574,
+   "r16": 0.1541,
+   "qf": 0.0254,
+   "sf": 0.0037,
    "final": 0.0004,
    "champion": 0.0,
-   "market_champion": 0.0017
+   "market_champion": 0.0016
   },
   {
    "team": "Cape Verde",
    "flag": "\ud83c\udde8\ud83c\uddfb",
    "group": "H",
    "elo": 1653,
-   "advance": 0.2814,
-   "r16": 0.0326,
-   "qf": 0.0056,
-   "sf": 0.0005,
-   "final": 0.0,
+   "advance": 0.2985,
+   "r16": 0.034,
+   "qf": 0.0054,
+   "sf": 0.0008,
+   "final": 0.0001,
    "champion": 0.0,
    "market_champion": 0.0009
   },
@@ -901,24 +1026,37 @@
    "flag": "\ud83c\udde8\ud83c\uddfc",
    "group": "E",
    "elo": 1607,
-   "advance": 0.0748,
-   "r16": 0.0054,
-   "qf": 0.0006,
-   "sf": 0.0,
+   "advance": 0.0775,
+   "r16": 0.0071,
+   "qf": 0.0009,
+   "sf": 0.0001,
    "final": 0.0,
    "champion": 0.0,
    "market_champion": 0.0006
+  },
+  {
+   "team": "DR Congo",
+   "flag": "\ud83c\udde8\ud83c\udde9",
+   "group": "K",
+   "elo": 1763,
+   "advance": 0.3968,
+   "r16": 0.1059,
+   "qf": 0.0242,
+   "sf": 0.0047,
+   "final": 0.0006,
+   "champion": 0.0,
+   "market_champion": 0.001
   },
   {
    "team": "Ghana",
    "flag": "\ud83c\uddec\ud83c\udded",
    "group": "L",
    "elo": 1625,
-   "advance": 0.3696,
-   "r16": 0.0492,
-   "qf": 0.0071,
-   "sf": 0.0007,
-   "final": 0.0,
+   "advance": 0.3769,
+   "r16": 0.0537,
+   "qf": 0.0075,
+   "sf": 0.0011,
+   "final": 0.0001,
    "champion": 0.0,
    "market_champion": 0.0016
   },
@@ -927,10 +1065,10 @@
    "flag": "\ud83c\udded\ud83c\uddf9",
    "group": "C",
    "elo": 1708,
-   "advance": 0.1469,
-   "r16": 0.0188,
-   "qf": 0.0024,
-   "sf": 0.0006,
+   "advance": 0.1546,
+   "r16": 0.0201,
+   "qf": 0.0035,
+   "sf": 0.0003,
    "final": 0.0,
    "champion": 0.0,
    "market_champion": 0.0009
@@ -940,11 +1078,11 @@
    "flag": "\ud83c\uddee\ud83c\uddf6",
    "group": "I",
    "elo": 1738,
-   "advance": 0.1719,
-   "r16": 0.0381,
-   "qf": 0.0071,
+   "advance": 0.1636,
+   "r16": 0.035,
+   "qf": 0.0056,
    "sf": 0.0009,
-   "final": 0.0,
+   "final": 0.0003,
    "champion": 0.0,
    "market_champion": 0.0009
   },
@@ -953,35 +1091,22 @@
    "flag": "\ud83c\uddf3\ud83c\uddff",
    "group": "G",
    "elo": 1732,
-   "advance": 0.3004,
-   "r16": 0.0559,
-   "qf": 0.0076,
-   "sf": 0.0011,
-   "final": 0.0001,
+   "advance": 0.3037,
+   "r16": 0.0602,
+   "qf": 0.0083,
+   "sf": 0.0005,
+   "final": 0.0,
    "champion": 0.0,
    "market_champion": 0.0007
-  },
-  {
-   "team": "Panama",
-   "flag": "\ud83c\uddf5\ud83c\udde6",
-   "group": "L",
-   "elo": 1855,
-   "advance": 0.3961,
-   "r16": 0.0769,
-   "qf": 0.0142,
-   "sf": 0.0025,
-   "final": 0.0005,
-   "champion": 0.0,
-   "market_champion": 0.0009
   },
   {
    "team": "Qatar",
    "flag": "\ud83c\uddf6\ud83c\udde6",
    "group": "B",
    "elo": 1566,
-   "advance": 0.2043,
-   "r16": 0.0259,
-   "qf": 0.0018,
+   "advance": 0.2041,
+   "r16": 0.0254,
+   "qf": 0.0023,
    "sf": 0.0,
    "final": 0.0,
    "champion": 0.0,
@@ -992,11 +1117,11 @@
    "flag": "\ud83c\uddf8\ud83c\udde6",
    "group": "H",
    "elo": 1693,
-   "advance": 0.3218,
-   "r16": 0.0478,
-   "qf": 0.008,
-   "sf": 0.0013,
-   "final": 0.0002,
+   "advance": 0.3175,
+   "r16": 0.0466,
+   "qf": 0.0088,
+   "sf": 0.0015,
+   "final": 0.0001,
    "champion": 0.0,
    "market_champion": 0.0009
   },
@@ -1005,24 +1130,11 @@
    "flag": "\ud83c\uddff\ud83c\udde6",
    "group": "A",
    "elo": 1656,
-   "advance": 0.2073,
-   "r16": 0.0458,
-   "qf": 0.0087,
-   "sf": 0.0007,
+   "advance": 0.2063,
+   "r16": 0.046,
+   "qf": 0.0065,
+   "sf": 0.0003,
    "final": 0.0001,
-   "champion": 0.0,
-   "market_champion": 0.0012
-  },
-  {
-   "team": "Tunisia",
-   "flag": "\ud83c\uddf9\ud83c\uddf3",
-   "group": "F",
-   "elo": 1738,
-   "advance": 0.383,
-   "r16": 0.0931,
-   "qf": 0.024,
-   "sf": 0.0051,
-   "final": 0.0008,
    "champion": 0.0,
    "market_champion": 0.0012
   }
@@ -1039,8 +1151,8 @@
     "gf": 2,
     "ga": 0,
     "pts": 3,
-    "advance": 0.9889,
-    "group_win": 0.6307
+    "advance": 0.9876,
+    "group_win": 0.6291
    },
    {
     "team": "South Korea",
@@ -1052,8 +1164,8 @@
     "gf": 2,
     "ga": 1,
     "pts": 3,
-    "advance": 0.9591,
-    "group_win": 0.3256
+    "advance": 0.9571,
+    "group_win": 0.3272
    },
    {
     "team": "Czech Republic",
@@ -1065,8 +1177,8 @@
     "gf": 1,
     "ga": 2,
     "pts": 0,
-    "advance": 0.5461,
-    "group_win": 0.0365
+    "advance": 0.545,
+    "group_win": 0.0383
    },
    {
     "team": "South Africa",
@@ -1078,11 +1190,37 @@
     "gf": 0,
     "ga": 2,
     "pts": 0,
-    "advance": 0.2073,
-    "group_win": 0.0072
+    "advance": 0.2063,
+    "group_win": 0.0054
    }
   ],
   "B": [
+   {
+    "team": "Canada",
+    "flag": "\ud83c\udde8\ud83c\udde6",
+    "p": 1,
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1,
+    "pts": 1,
+    "advance": 0.8713,
+    "group_win": 0.2843
+   },
+   {
+    "team": "Bosnia and Herzegovina",
+    "flag": "\ud83c\udde7\ud83c\udde6",
+    "p": 1,
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1,
+    "pts": 1,
+    "advance": 0.6574,
+    "group_win": 0.0936
+   },
    {
     "team": "Switzerland",
     "flag": "\ud83c\udde8\ud83c\udded",
@@ -1093,34 +1231,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.9559,
-    "group_win": 0.535
-   },
-   {
-    "team": "Canada",
-    "flag": "\ud83c\udde8\ud83c\udde6",
-    "p": 0,
-    "w": 0,
-    "d": 0,
-    "l": 0,
-    "gf": 0,
-    "ga": 0,
-    "pts": 0,
-    "advance": 0.9209,
-    "group_win": 0.3772
-   },
-   {
-    "team": "Bosnia and Herzegovina",
-    "flag": "\ud83c\udde7\ud83c\udde6",
-    "p": 0,
-    "w": 0,
-    "d": 0,
-    "l": 0,
-    "gf": 0,
-    "ga": 0,
-    "pts": 0,
-    "advance": 0.5576,
-    "group_win": 0.0725
+    "advance": 0.9566,
+    "group_win": 0.5997
    },
    {
     "team": "Qatar",
@@ -1132,8 +1244,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.2043,
-    "group_win": 0.0153
+    "advance": 0.2041,
+    "group_win": 0.0224
    }
   ],
   "C": [
@@ -1147,8 +1259,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.9779,
-    "group_win": 0.6363
+    "advance": 0.9741,
+    "group_win": 0.6291
    },
    {
     "team": "Morocco",
@@ -1160,8 +1272,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.8861,
-    "group_win": 0.2596
+    "advance": 0.8851,
+    "group_win": 0.2643
    },
    {
     "team": "Scotland",
@@ -1173,7 +1285,7 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.6726,
+    "advance": 0.6684,
     "group_win": 0.0957
    },
    {
@@ -1186,11 +1298,24 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.1469,
-    "group_win": 0.0084
+    "advance": 0.1546,
+    "group_win": 0.0109
    }
   ],
   "D": [
+   {
+    "team": "United States",
+    "flag": "\ud83c\uddfa\ud83c\uddf8",
+    "p": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 4,
+    "ga": 1,
+    "pts": 3,
+    "advance": 0.9726,
+    "group_win": 0.5904
+   },
    {
     "team": "Turkey",
     "flag": "\ud83c\uddf9\ud83c\uddf7",
@@ -1201,34 +1326,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.7787,
-    "group_win": 0.3378
-   },
-   {
-    "team": "United States",
-    "flag": "\ud83c\uddfa\ud83c\uddf8",
-    "p": 0,
-    "w": 0,
-    "d": 0,
-    "l": 0,
-    "gf": 0,
-    "ga": 0,
-    "pts": 0,
-    "advance": 0.7437,
-    "group_win": 0.3011
-   },
-   {
-    "team": "Paraguay",
-    "flag": "\ud83c\uddf5\ud83c\uddfe",
-    "p": 0,
-    "w": 0,
-    "d": 0,
-    "l": 0,
-    "gf": 0,
-    "ga": 0,
-    "pts": 0,
-    "advance": 0.6509,
-    "group_win": 0.2093
+    "advance": 0.7894,
+    "group_win": 0.2701
    },
    {
     "team": "Australia",
@@ -1240,8 +1339,21 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.5623,
-    "group_win": 0.1518
+    "advance": 0.5674,
+    "group_win": 0.1185
+   },
+   {
+    "team": "Paraguay",
+    "flag": "\ud83c\uddf5\ud83c\uddfe",
+    "p": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 4,
+    "pts": 0,
+    "advance": 0.3674,
+    "group_win": 0.021
    }
   ],
   "E": [
@@ -1255,8 +1367,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.9747,
-    "group_win": 0.5731
+    "advance": 0.9735,
+    "group_win": 0.5768
    },
    {
     "team": "Ecuador",
@@ -1268,8 +1380,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.9174,
-    "group_win": 0.2924
+    "advance": 0.9169,
+    "group_win": 0.2888
    },
    {
     "team": "Ivory Coast",
@@ -1281,8 +1393,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.7865,
-    "group_win": 0.1309
+    "advance": 0.7855,
+    "group_win": 0.1306
    },
    {
     "team": "Cura\u00e7ao",
@@ -1294,8 +1406,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.0748,
-    "group_win": 0.0036
+    "advance": 0.0775,
+    "group_win": 0.0038
    }
   ],
   "F": [
@@ -1309,7 +1421,7 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.907,
+    "advance": 0.9124,
     "group_win": 0.4964
    },
    {
@@ -1322,8 +1434,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.8316,
-    "group_win": 0.3217
+    "advance": 0.8278,
+    "group_win": 0.3235
    },
    {
     "team": "Sweden",
@@ -1335,8 +1447,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.5754,
-    "group_win": 0.1203
+    "advance": 0.5658,
+    "group_win": 0.1225
    },
    {
     "team": "Tunisia",
@@ -1348,8 +1460,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.383,
-    "group_win": 0.0616
+    "advance": 0.3836,
+    "group_win": 0.0576
    }
   ],
   "G": [
@@ -1363,8 +1475,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.9476,
-    "group_win": 0.6257
+    "advance": 0.9428,
+    "group_win": 0.6194
    },
    {
     "team": "Iran",
@@ -1376,8 +1488,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.725,
-    "group_win": 0.1707
+    "advance": 0.7236,
+    "group_win": 0.1766
    },
    {
     "team": "Egypt",
@@ -1389,8 +1501,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.7065,
-    "group_win": 0.1695
+    "advance": 0.7066,
+    "group_win": 0.1633
    },
    {
     "team": "New Zealand",
@@ -1402,8 +1514,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.3004,
-    "group_win": 0.0341
+    "advance": 0.3037,
+    "group_win": 0.0407
    }
   ],
   "H": [
@@ -1417,8 +1529,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.9927,
-    "group_win": 0.7696
+    "advance": 0.9925,
+    "group_win": 0.7711
    },
    {
     "team": "Uruguay",
@@ -1430,8 +1542,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.8942,
-    "group_win": 0.2033
+    "advance": 0.8978,
+    "group_win": 0.2003
    },
    {
     "team": "Saudi Arabia",
@@ -1443,8 +1555,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.3218,
-    "group_win": 0.0158
+    "advance": 0.3175,
+    "group_win": 0.0148
    },
    {
     "team": "Cape Verde",
@@ -1456,8 +1568,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.2814,
-    "group_win": 0.0113
+    "advance": 0.2985,
+    "group_win": 0.0138
    }
   ],
   "I": [
@@ -1471,8 +1583,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.9561,
-    "group_win": 0.5844
+    "advance": 0.9538,
+    "group_win": 0.5775
    },
    {
     "team": "Norway",
@@ -1484,8 +1596,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.8555,
-    "group_win": 0.262
+    "advance": 0.853,
+    "group_win": 0.2632
    },
    {
     "team": "Senegal",
@@ -1497,8 +1609,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.7207,
-    "group_win": 0.14
+    "advance": 0.7296,
+    "group_win": 0.1477
    },
    {
     "team": "Iraq",
@@ -1510,8 +1622,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.1719,
-    "group_win": 0.0136
+    "advance": 0.1636,
+    "group_win": 0.0116
    }
   ],
   "J": [
@@ -1525,8 +1637,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.9772,
-    "group_win": 0.7005
+    "advance": 0.9779,
+    "group_win": 0.7009
    },
    {
     "team": "Austria",
@@ -1538,8 +1650,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.7938,
-    "group_win": 0.1736
+    "advance": 0.7847,
+    "group_win": 0.1676
    },
    {
     "team": "Algeria",
@@ -1551,8 +1663,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.6974,
-    "group_win": 0.1107
+    "advance": 0.704,
+    "group_win": 0.1137
    },
    {
     "team": "Jordan",
@@ -1564,8 +1676,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.2131,
-    "group_win": 0.0152
+    "advance": 0.2011,
+    "group_win": 0.0178
    }
   ],
   "K": [
@@ -1579,8 +1691,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.9414,
-    "group_win": 0.5167
+    "advance": 0.9436,
+    "group_win": 0.5234
    },
    {
     "team": "Colombia",
@@ -1592,8 +1704,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.9114,
-    "group_win": 0.396
+    "advance": 0.9139,
+    "group_win": 0.3938
    },
    {
     "team": "DR Congo",
@@ -1605,8 +1717,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.3978,
-    "group_win": 0.0464
+    "advance": 0.3968,
+    "group_win": 0.0434
    },
    {
     "team": "Uzbekistan",
@@ -1618,8 +1730,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.3752,
-    "group_win": 0.0409
+    "advance": 0.3759,
+    "group_win": 0.0394
    }
   ],
   "L": [
@@ -1633,8 +1745,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.969,
-    "group_win": 0.6417
+    "advance": 0.9699,
+    "group_win": 0.6484
    },
    {
     "team": "Croatia",
@@ -1646,8 +1758,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.8746,
-    "group_win": 0.2769
+    "advance": 0.8737,
+    "group_win": 0.2757
    },
    {
     "team": "Panama",
@@ -1659,8 +1771,8 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.3961,
-    "group_win": 0.0423
+    "advance": 0.3912,
+    "group_win": 0.0405
    },
    {
     "team": "Ghana",
@@ -1672,23 +1784,23 @@
     "gf": 0,
     "ga": 0,
     "pts": 0,
-    "advance": 0.3696,
-    "group_win": 0.0391
+    "advance": 0.3769,
+    "group_win": 0.0354
    }
   ]
  },
  "live_kpis": {
   "blend": {
-   "rps": 0.15447597249999998,
-   "logloss": 0.6888908087778931,
-   "accuracy": 1.0,
-   "n": 2
+   "rps": 0.17923097999999998,
+   "logloss": 0.9185134696175484,
+   "accuracy": 0.75,
+   "n": 4
   },
   "market": {
-   "rps": 0.16188602499999996,
-   "logloss": 0.716361396188666,
-   "accuracy": 1.0,
-   "n": 2
+   "rps": 0.16451834499999998,
+   "logloss": 0.8783282884244561,
+   "accuracy": 0.75,
+   "n": 4
   }
  },
  "backtest": {
@@ -1898,10 +2010,10 @@
   "w_dc": 0.6,
   "w_market": 0.5,
   "n_sims": 10000,
-  "rho": -0.0591,
-  "results_rows": 49407,
+  "rho": -0.0595,
+  "results_rows": 49409,
   "espn_merged": 0,
-  "odds_fixtures": 70,
+  "odds_fixtures": 68,
   "has_outright": true
  }
 }
