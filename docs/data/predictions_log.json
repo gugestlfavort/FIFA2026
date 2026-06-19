@@ -768,7 +768,11 @@
    "home": 0.4885,
    "draw": 0.2863,
    "away": 0.2251
-  }
+  },
+  "result": [
+   1,
+   1
+  ]
  },
  "760439": {
   "home": "Switzerland",
@@ -795,7 +799,11 @@
    "home": 0.6377,
    "draw": 0.2235,
    "away": 0.1388
-  }
+  },
+  "result": [
+   4,
+   1
+  ]
  },
  "760440": {
   "home": "Canada",
@@ -822,7 +830,11 @@
    "home": 0.7472,
    "draw": 0.1691,
    "away": 0.0838
-  }
+  },
+  "result": [
+   6,
+   0
+  ]
  },
  "760441": {
   "home": "Mexico",
@@ -849,7 +861,11 @@
    "home": 0.5188,
    "draw": 0.2682,
    "away": 0.213
-  }
+  },
+  "result": [
+   1,
+   0
+  ]
  },
  "760442": {
   "home": "United States",
@@ -857,20 +873,20 @@
   "kickoff_utc": "2026-06-19T19:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.3464,
-   "draw": 0.2867,
-   "away": 0.3669
+   "home": 0.3481,
+   "draw": 0.2873,
+   "away": 0.3646
   },
   "market": {
-   "home": 0.5966,
-   "draw": 0.2221,
-   "away": 0.1812,
-   "books": 24
+   "home": 0.6029,
+   "draw": 0.2217,
+   "away": 0.1754,
+   "books": 25
   },
   "blend": {
-   "home": 0.4715,
-   "draw": 0.2544,
-   "away": 0.2741
+   "home": 0.4755,
+   "draw": 0.2545,
+   "away": 0.27
   },
   "opened": {
    "home": 0.4507,
@@ -884,20 +900,20 @@
   "kickoff_utc": "2026-06-19T22:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.1906,
-   "draw": 0.3062,
-   "away": 0.5032
+   "home": 0.1905,
+   "draw": 0.3064,
+   "away": 0.5031
   },
   "market": {
-   "home": 0.1808,
-   "draw": 0.2652,
-   "away": 0.554,
-   "books": 24
+   "home": 0.1739,
+   "draw": 0.2681,
+   "away": 0.558,
+   "books": 25
   },
   "blend": {
-   "home": 0.1857,
-   "draw": 0.2857,
-   "away": 0.5286
+   "home": 0.1822,
+   "draw": 0.2873,
+   "away": 0.5305
   },
   "opened": {
    "home": 0.2047,
@@ -911,20 +927,20 @@
   "kickoff_utc": "2026-06-20T00:30:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.8568,
-   "draw": 0.1051,
-   "away": 0.0381
+   "home": 0.8562,
+   "draw": 0.1055,
+   "away": 0.0383
   },
   "market": {
-   "home": 0.8666,
-   "draw": 0.0908,
-   "away": 0.0427,
-   "books": 24
+   "home": 0.8712,
+   "draw": 0.0871,
+   "away": 0.0417,
+   "books": 25
   },
   "blend": {
-   "home": 0.8617,
-   "draw": 0.0979,
-   "away": 0.0404
+   "home": 0.8637,
+   "draw": 0.0963,
+   "away": 0.04
   },
   "opened": {
    "home": 0.8868,
@@ -938,20 +954,20 @@
   "kickoff_utc": "2026-06-20T03:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.3954,
-   "draw": 0.2989,
-   "away": 0.3057
+   "home": 0.3941,
+   "draw": 0.299,
+   "away": 0.3069
   },
   "market": {
-   "home": 0.4748,
-   "draw": 0.2814,
-   "away": 0.2438,
-   "books": 24
+   "home": 0.4702,
+   "draw": 0.2794,
+   "away": 0.2504,
+   "books": 25
   },
   "blend": {
-   "home": 0.4351,
-   "draw": 0.2901,
-   "away": 0.2748
+   "home": 0.4322,
+   "draw": 0.2892,
+   "away": 0.2786
   },
   "opened": {
    "home": 0.4025,
@@ -965,20 +981,20 @@
   "kickoff_utc": "2026-06-20T17:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.5793,
-   "draw": 0.2325,
-   "away": 0.1882
+   "home": 0.5782,
+   "draw": 0.2332,
+   "away": 0.1886
   },
   "market": {
-   "home": 0.5559,
-   "draw": 0.2479,
-   "away": 0.1963,
-   "books": 23
+   "home": 0.5491,
+   "draw": 0.2464,
+   "away": 0.2045,
+   "books": 24
   },
   "blend": {
-   "home": 0.5676,
-   "draw": 0.2402,
-   "away": 0.1922
+   "home": 0.5637,
+   "draw": 0.2398,
+   "away": 0.1965
   },
   "opened": {
    "home": 0.5979,
@@ -992,20 +1008,20 @@
   "kickoff_utc": "2026-06-20T20:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.5325,
-   "draw": 0.2702,
-   "away": 0.1974
+   "home": 0.5315,
+   "draw": 0.2708,
+   "away": 0.1977
   },
   "market": {
-   "home": 0.6187,
-   "draw": 0.2131,
-   "away": 0.1682,
-   "books": 24
+   "home": 0.6246,
+   "draw": 0.2077,
+   "away": 0.1677,
+   "books": 25
   },
   "blend": {
-   "home": 0.5756,
-   "draw": 0.2416,
-   "away": 0.1828
+   "home": 0.578,
+   "draw": 0.2393,
+   "away": 0.1827
   },
   "opened": {
    "home": 0.5798,
@@ -1019,20 +1035,20 @@
   "kickoff_utc": "2026-06-21T00:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.8053,
-   "draw": 0.15,
-   "away": 0.0447
+   "home": 0.8043,
+   "draw": 0.1508,
+   "away": 0.0449
   },
   "market": {
-   "home": 0.8754,
-   "draw": 0.0875,
-   "away": 0.037,
-   "books": 24
+   "home": 0.8654,
+   "draw": 0.0961,
+   "away": 0.0386,
+   "books": 25
   },
   "blend": {
-   "home": 0.8403,
-   "draw": 0.1188,
-   "away": 0.0409
+   "home": 0.8348,
+   "draw": 0.1234,
+   "away": 0.0417
   },
   "opened": {
    "home": 0.8043,
@@ -1046,20 +1062,20 @@
   "kickoff_utc": "2026-06-21T04:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.1299,
-   "draw": 0.2513,
-   "away": 0.6188
+   "home": 0.13,
+   "draw": 0.2518,
+   "away": 0.6182
   },
   "market": {
-   "home": 0.142,
-   "draw": 0.2291,
-   "away": 0.6289,
-   "books": 24
+   "home": 0.1421,
+   "draw": 0.2311,
+   "away": 0.6268,
+   "books": 25
   },
   "blend": {
    "home": 0.136,
-   "draw": 0.2402,
-   "away": 0.6238
+   "draw": 0.2415,
+   "away": 0.6225
   },
   "opened": {
    "home": 0.1683,
@@ -1073,20 +1089,20 @@
   "kickoff_utc": "2026-06-21T16:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.8282,
-   "draw": 0.1309,
-   "away": 0.041
+   "home": 0.8286,
+   "draw": 0.1307,
+   "away": 0.0407
   },
   "market": {
-   "home": 0.8675,
-   "draw": 0.0954,
-   "away": 0.0371,
-   "books": 24
+   "home": 0.8678,
+   "draw": 0.0955,
+   "away": 0.0367,
+   "books": 25
   },
   "blend": {
-   "home": 0.8478,
-   "draw": 0.1132,
-   "away": 0.039
+   "home": 0.8482,
+   "draw": 0.1131,
+   "away": 0.0387
   },
   "opened": {
    "home": 0.8526,
@@ -1100,20 +1116,20 @@
   "kickoff_utc": "2026-06-21T19:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.4952,
-   "draw": 0.2754,
-   "away": 0.2295
+   "home": 0.497,
+   "draw": 0.2751,
+   "away": 0.2278
   },
   "market": {
-   "home": 0.6739,
-   "draw": 0.2036,
-   "away": 0.1225,
-   "books": 24
+   "home": 0.6732,
+   "draw": 0.2034,
+   "away": 0.1234,
+   "books": 25
   },
   "blend": {
-   "home": 0.5846,
-   "draw": 0.2395,
-   "away": 0.176
+   "home": 0.5851,
+   "draw": 0.2393,
+   "away": 0.1756
   },
   "opened": {
    "home": 0.5891,
@@ -1127,20 +1143,20 @@
   "kickoff_utc": "2026-06-21T22:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.6271,
-   "draw": 0.2589,
-   "away": 0.114
+   "home": 0.6283,
+   "draw": 0.2583,
+   "away": 0.1134
   },
   "market": {
-   "home": 0.6505,
-   "draw": 0.2261,
-   "away": 0.1233,
-   "books": 24
+   "home": 0.6568,
+   "draw": 0.2241,
+   "away": 0.1191,
+   "books": 25
   },
   "blend": {
-   "home": 0.6388,
-   "draw": 0.2425,
-   "away": 0.1187
+   "home": 0.6426,
+   "draw": 0.2412,
+   "away": 0.1162
   },
   "opened": {
    "home": 0.6636,
@@ -1154,20 +1170,20 @@
   "kickoff_utc": "2026-06-22T01:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.1854,
-   "draw": 0.3171,
-   "away": 0.4975
+   "home": 0.1855,
+   "draw": 0.3175,
+   "away": 0.497
   },
   "market": {
-   "home": 0.1672,
-   "draw": 0.2364,
-   "away": 0.5964,
-   "books": 24
+   "home": 0.1689,
+   "draw": 0.2343,
+   "away": 0.5968,
+   "books": 25
   },
   "blend": {
-   "home": 0.1763,
-   "draw": 0.2767,
-   "away": 0.547
+   "home": 0.1772,
+   "draw": 0.2759,
+   "away": 0.5469
   },
   "opened": {
    "home": 0.1808,
@@ -1181,20 +1197,20 @@
   "kickoff_utc": "2026-06-22T17:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.6128,
-   "draw": 0.2593,
-   "away": 0.1279
+   "home": 0.6142,
+   "draw": 0.2588,
+   "away": 0.127
   },
   "market": {
-   "home": 0.6066,
-   "draw": 0.2388,
-   "away": 0.1546,
-   "books": 24
+   "home": 0.5959,
+   "draw": 0.2441,
+   "away": 0.1599,
+   "books": 25
   },
   "blend": {
-   "home": 0.6097,
-   "draw": 0.249,
-   "away": 0.1412
+   "home": 0.6051,
+   "draw": 0.2515,
+   "away": 0.1434
   },
   "opened": {
    "home": 0.5893,
@@ -1208,20 +1224,20 @@
   "kickoff_utc": "2026-06-22T21:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.7887,
-   "draw": 0.156,
-   "away": 0.0552
+   "home": 0.7902,
+   "draw": 0.1552,
+   "away": 0.0546
   },
   "market": {
-   "home": 0.8803,
-   "draw": 0.0878,
-   "away": 0.0318,
-   "books": 24
+   "home": 0.8817,
+   "draw": 0.0866,
+   "away": 0.0317,
+   "books": 25
   },
   "blend": {
-   "home": 0.8345,
-   "draw": 0.1219,
-   "away": 0.0435
+   "home": 0.8359,
+   "draw": 0.1209,
+   "away": 0.0432
   },
   "opened": {
    "home": 0.8031,
@@ -1235,19 +1251,19 @@
   "kickoff_utc": "2026-06-23T00:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.4461,
-   "draw": 0.2875,
+   "home": 0.4458,
+   "draw": 0.2877,
    "away": 0.2665
   },
   "market": {
    "home": 0.4137,
    "draw": 0.273,
    "away": 0.3133,
-   "books": 24
+   "books": 25
   },
   "blend": {
-   "home": 0.4299,
-   "draw": 0.2802,
+   "home": 0.4297,
+   "draw": 0.2804,
    "away": 0.2899
   },
   "opened": {
@@ -1262,20 +1278,20 @@
   "kickoff_utc": "2026-06-23T03:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.1738,
-   "draw": 0.2442,
-   "away": 0.5819
+   "home": 0.1729,
+   "draw": 0.2441,
+   "away": 0.583
   },
   "market": {
-   "home": 0.1609,
-   "draw": 0.2339,
-   "away": 0.6051,
-   "books": 24
+   "home": 0.1602,
+   "draw": 0.2325,
+   "away": 0.6072,
+   "books": 25
   },
   "blend": {
-   "home": 0.1674,
-   "draw": 0.2391,
-   "away": 0.5935
+   "home": 0.1666,
+   "draw": 0.2383,
+   "away": 0.5951
   },
   "opened": {
    "home": 0.1597,
@@ -1289,20 +1305,20 @@
   "kickoff_utc": "2026-06-23T17:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.6495,
+   "home": 0.6508,
    "draw": 0.2319,
-   "away": 0.1186
+   "away": 0.1174
   },
   "market": {
-   "home": 0.7953,
-   "draw": 0.1365,
-   "away": 0.0682,
-   "books": 21
+   "home": 0.7967,
+   "draw": 0.1396,
+   "away": 0.0637,
+   "books": 25
   },
   "blend": {
-   "home": 0.7224,
-   "draw": 0.1842,
-   "away": 0.0934
+   "home": 0.7237,
+   "draw": 0.1857,
+   "away": 0.0906
   },
   "opened": {
    "home": 0.7119,
@@ -1316,20 +1332,20 @@
   "kickoff_utc": "2026-06-23T20:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.7864,
-   "draw": 0.1591,
+   "home": 0.7862,
+   "draw": 0.1593,
    "away": 0.0545
   },
   "market": {
-   "home": 0.7729,
-   "draw": 0.1533,
-   "away": 0.0737,
-   "books": 21
+   "home": 0.7826,
+   "draw": 0.1492,
+   "away": 0.0682,
+   "books": 25
   },
   "blend": {
-   "home": 0.7797,
-   "draw": 0.1562,
-   "away": 0.0641
+   "home": 0.7844,
+   "draw": 0.1542,
+   "away": 0.0614
   },
   "opened": {
    "home": 0.7514,
@@ -1343,20 +1359,20 @@
   "kickoff_utc": "2026-06-23T23:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.1443,
-   "draw": 0.2308,
-   "away": 0.6249
+   "home": 0.1453,
+   "draw": 0.2319,
+   "away": 0.6228
   },
   "market": {
-   "home": 0.1439,
-   "draw": 0.2327,
-   "away": 0.6235,
-   "books": 21
+   "home": 0.1423,
+   "draw": 0.2384,
+   "away": 0.6193,
+   "books": 25
   },
   "blend": {
-   "home": 0.1441,
-   "draw": 0.2317,
-   "away": 0.6242
+   "home": 0.1438,
+   "draw": 0.2352,
+   "away": 0.621
   },
   "opened": {
    "home": 0.136,
@@ -1370,20 +1386,20 @@
   "kickoff_utc": "2026-06-24T02:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.6293,
-   "draw": 0.2502,
-   "away": 0.1205
+   "home": 0.6303,
+   "draw": 0.2498,
+   "away": 0.1198
   },
   "market": {
-   "home": 0.6428,
-   "draw": 0.2242,
-   "away": 0.133,
-   "books": 21
+   "home": 0.6364,
+   "draw": 0.2273,
+   "away": 0.1364,
+   "books": 23
   },
   "blend": {
-   "home": 0.636,
-   "draw": 0.2372,
-   "away": 0.1267
+   "home": 0.6333,
+   "draw": 0.2386,
+   "away": 0.1281
   },
   "opened": {
    "home": 0.7172,
@@ -1397,20 +1413,20 @@
   "kickoff_utc": "2026-06-24T19:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.4572,
-   "draw": 0.2883,
-   "away": 0.2545
+   "home": 0.4649,
+   "draw": 0.2827,
+   "away": 0.2524
   },
   "market": {
-   "home": 0.6013,
-   "draw": 0.2414,
-   "away": 0.1573,
-   "books": 19
+   "home": 0.6731,
+   "draw": 0.1951,
+   "away": 0.1318,
+   "books": 21
   },
   "blend": {
-   "home": 0.5292,
-   "draw": 0.2649,
-   "away": 0.2059
+   "home": 0.569,
+   "draw": 0.2389,
+   "away": 0.1921
   },
   "opened": {
    "home": 0.537,
@@ -1424,20 +1440,20 @@
   "kickoff_utc": "2026-06-24T19:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.3933,
-   "draw": 0.2873,
-   "away": 0.3194
+   "home": 0.3862,
+   "draw": 0.2842,
+   "away": 0.3297
   },
   "market": {
-   "home": 0.452,
-   "draw": 0.2792,
-   "away": 0.2689,
-   "books": 19
+   "home": 0.3932,
+   "draw": 0.3082,
+   "away": 0.2986,
+   "books": 21
   },
   "blend": {
-   "home": 0.4226,
-   "draw": 0.2832,
-   "away": 0.2941
+   "home": 0.3897,
+   "draw": 0.2962,
+   "away": 0.3141
   },
   "opened": {
    "home": 0.4258,
@@ -1451,20 +1467,20 @@
   "kickoff_utc": "2026-06-24T22:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.1448,
-   "draw": 0.2327,
-   "away": 0.6225
+   "home": 0.1443,
+   "draw": 0.2324,
+   "away": 0.6233
   },
   "market": {
-   "home": 0.1374,
-   "draw": 0.1996,
-   "away": 0.663,
-   "books": 19
+   "home": 0.1359,
+   "draw": 0.1941,
+   "away": 0.6699,
+   "books": 21
   },
   "blend": {
-   "home": 0.1411,
-   "draw": 0.2161,
-   "away": 0.6428
+   "home": 0.1401,
+   "draw": 0.2133,
+   "away": 0.6466
   },
   "opened": {
    "home": 0.1378,
@@ -1478,20 +1494,20 @@
   "kickoff_utc": "2026-06-24T22:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.7477,
-   "draw": 0.1843,
-   "away": 0.068
+   "home": 0.7462,
+   "draw": 0.1853,
+   "away": 0.0686
   },
   "market": {
-   "home": 0.7334,
-   "draw": 0.172,
-   "away": 0.0946,
-   "books": 19
+   "home": 0.7472,
+   "draw": 0.1665,
+   "away": 0.0863,
+   "books": 21
   },
   "blend": {
-   "home": 0.7406,
-   "draw": 0.1781,
-   "away": 0.0813
+   "home": 0.7467,
+   "draw": 0.1759,
+   "away": 0.0774
   },
   "opened": {
    "home": 0.7417,
@@ -1505,20 +1521,20 @@
   "kickoff_utc": "2026-06-25T01:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.178,
-   "draw": 0.2434,
-   "away": 0.5786
+   "home": 0.1656,
+   "draw": 0.2385,
+   "away": 0.596
   },
   "market": {
-   "home": 0.2097,
-   "draw": 0.2688,
-   "away": 0.5215,
-   "books": 19
+   "home": 0.2802,
+   "draw": 0.2683,
+   "away": 0.4515,
+   "books": 20
   },
   "blend": {
-   "home": 0.1938,
-   "draw": 0.2561,
-   "away": 0.55
+   "home": 0.2229,
+   "draw": 0.2534,
+   "away": 0.5237
   },
   "opened": {
    "home": 0.207,
@@ -1532,20 +1548,20 @@
   "kickoff_utc": "2026-06-25T01:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.1781,
-   "draw": 0.2753,
-   "away": 0.5466
+   "home": 0.1877,
+   "draw": 0.2828,
+   "away": 0.5295
   },
   "market": {
-   "home": 0.1628,
-   "draw": 0.236,
-   "away": 0.6013,
-   "books": 19
+   "home": 0.1694,
+   "draw": 0.2449,
+   "away": 0.5857,
+   "books": 20
   },
   "blend": {
-   "home": 0.1704,
-   "draw": 0.2556,
-   "away": 0.5739
+   "home": 0.1786,
+   "draw": 0.2638,
+   "away": 0.5576
   },
   "opened": {
    "home": 0.2202,
@@ -1559,20 +1575,20 @@
   "kickoff_utc": "2026-06-25T20:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.0793,
-   "draw": 0.1926,
-   "away": 0.728
+   "home": 0.0799,
+   "draw": 0.1938,
+   "away": 0.7263
   },
   "market": {
-   "home": 0.0494,
-   "draw": 0.1157,
-   "away": 0.8349,
-   "books": 18
+   "home": 0.0462,
+   "draw": 0.1115,
+   "away": 0.8423,
+   "books": 20
   },
   "blend": {
-   "home": 0.0644,
-   "draw": 0.1542,
-   "away": 0.7815
+   "home": 0.0631,
+   "draw": 0.1526,
+   "away": 0.7843
   },
   "opened": {
    "home": 0.0807,
@@ -1586,20 +1602,20 @@
   "kickoff_utc": "2026-06-25T20:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.2917,
-   "draw": 0.3131,
-   "away": 0.3952
+   "home": 0.2925,
+   "draw": 0.3136,
+   "away": 0.3939
   },
   "market": {
-   "home": 0.1939,
-   "draw": 0.2519,
-   "away": 0.5542,
-   "books": 18
+   "home": 0.1927,
+   "draw": 0.2495,
+   "away": 0.5578,
+   "books": 20
   },
   "blend": {
-   "home": 0.2428,
-   "draw": 0.2825,
-   "away": 0.4747
+   "home": 0.2426,
+   "draw": 0.2816,
+   "away": 0.4758
   },
   "opened": {
    "home": 0.258,
@@ -1613,20 +1629,20 @@
   "kickoff_utc": "2026-06-25T23:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.5239,
-   "draw": 0.2618,
-   "away": 0.2143
+   "home": 0.5232,
+   "draw": 0.2623,
+   "away": 0.2145
   },
   "market": {
-   "home": 0.4452,
-   "draw": 0.2768,
-   "away": 0.278,
-   "books": 18
+   "home": 0.4443,
+   "draw": 0.2756,
+   "away": 0.2801,
+   "books": 20
   },
   "blend": {
-   "home": 0.4845,
-   "draw": 0.2693,
-   "away": 0.2461
+   "home": 0.4838,
+   "draw": 0.269,
+   "away": 0.2473
   },
   "opened": {
    "home": 0.5006,
@@ -1640,20 +1656,20 @@
   "kickoff_utc": "2026-06-25T23:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.1103,
-   "draw": 0.2147,
-   "away": 0.675
+   "home": 0.1105,
+   "draw": 0.2153,
+   "away": 0.6741
   },
   "market": {
-   "home": 0.1025,
-   "draw": 0.1771,
-   "away": 0.7205,
-   "books": 18
+   "home": 0.1,
+   "draw": 0.1758,
+   "away": 0.7242,
+   "books": 20
   },
   "blend": {
-   "home": 0.1064,
-   "draw": 0.1959,
-   "away": 0.6977
+   "home": 0.1053,
+   "draw": 0.1956,
+   "away": 0.6992
   },
   "opened": {
    "home": 0.1397,
@@ -1667,20 +1683,20 @@
   "kickoff_utc": "2026-06-26T02:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.2733,
-   "draw": 0.3255,
-   "away": 0.4012
+   "home": 0.2737,
+   "draw": 0.326,
+   "away": 0.4004
   },
   "market": {
-   "home": 0.4379,
-   "draw": 0.2877,
-   "away": 0.2743,
-   "books": 18
+   "home": 0.4387,
+   "draw": 0.2865,
+   "away": 0.2749,
+   "books": 20
   },
   "blend": {
-   "home": 0.3556,
-   "draw": 0.3066,
-   "away": 0.3378
+   "home": 0.3562,
+   "draw": 0.3062,
+   "away": 0.3376
   },
   "opened": {
    "home": 0.3811,
@@ -1694,20 +1710,20 @@
   "kickoff_utc": "2026-06-26T02:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.3516,
-   "draw": 0.2605,
-   "away": 0.3879
+   "home": 0.3487,
+   "draw": 0.2606,
+   "away": 0.3907
   },
   "market": {
-   "home": 0.3415,
-   "draw": 0.2627,
-   "away": 0.3958,
-   "books": 18
+   "home": 0.3397,
+   "draw": 0.2638,
+   "away": 0.3965,
+   "books": 20
   },
   "blend": {
-   "home": 0.3465,
-   "draw": 0.2616,
-   "away": 0.3918
+   "home": 0.3442,
+   "draw": 0.2622,
+   "away": 0.3936
   },
   "opened": {
    "home": 0.3787,
@@ -1721,20 +1737,20 @@
   "kickoff_utc": "2026-06-26T19:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.2406,
-   "draw": 0.2702,
+   "home": 0.2404,
+   "draw": 0.2703,
    "away": 0.4892
   },
   "market": {
-   "home": 0.2207,
-   "draw": 0.2536,
-   "away": 0.5256,
-   "books": 18
+   "home": 0.2185,
+   "draw": 0.253,
+   "away": 0.5285,
+   "books": 19
   },
   "blend": {
-   "home": 0.2307,
-   "draw": 0.2619,
-   "away": 0.5074
+   "home": 0.2295,
+   "draw": 0.2616,
+   "away": 0.5089
   },
   "opened": {
    "home": 0.2351,
@@ -1748,20 +1764,20 @@
   "kickoff_utc": "2026-06-26T19:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.5769,
-   "draw": 0.2715,
-   "away": 0.1517
+   "home": 0.5785,
+   "draw": 0.271,
+   "away": 0.1505
   },
   "market": {
-   "home": 0.7159,
-   "draw": 0.1861,
-   "away": 0.098,
-   "books": 18
+   "home": 0.7221,
+   "draw": 0.1841,
+   "away": 0.0939,
+   "books": 19
   },
   "blend": {
-   "home": 0.6464,
-   "draw": 0.2288,
-   "away": 0.1248
+   "home": 0.6503,
+   "draw": 0.2275,
+   "away": 0.1222
   },
   "opened": {
    "home": 0.6195,
@@ -1775,20 +1791,20 @@
   "kickoff_utc": "2026-06-27T00:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.1684,
-   "draw": 0.2807,
-   "away": 0.551
+   "home": 0.169,
+   "draw": 0.2814,
+   "away": 0.5496
   },
   "market": {
-   "home": 0.1574,
-   "draw": 0.2254,
-   "away": 0.6172,
-   "books": 18
+   "home": 0.1573,
+   "draw": 0.2258,
+   "away": 0.6169,
+   "books": 19
   },
   "blend": {
-   "home": 0.1629,
-   "draw": 0.253,
-   "away": 0.5841
+   "home": 0.1632,
+   "draw": 0.2536,
+   "away": 0.5832
   },
   "opened": {
    "home": 0.1779,
@@ -1802,20 +1818,20 @@
   "kickoff_utc": "2026-06-27T00:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.3106,
-   "draw": 0.334,
-   "away": 0.3555
+   "home": 0.3112,
+   "draw": 0.3341,
+   "away": 0.3547
   },
   "market": {
-   "home": 0.3434,
-   "draw": 0.2613,
-   "away": 0.3953,
-   "books": 18
+   "home": 0.3437,
+   "draw": 0.2625,
+   "away": 0.3938,
+   "books": 19
   },
   "blend": {
-   "home": 0.327,
-   "draw": 0.2977,
-   "away": 0.3754
+   "home": 0.3274,
+   "draw": 0.2983,
+   "away": 0.3742
   },
   "opened": {
    "home": 0.3332,
@@ -1829,20 +1845,20 @@
   "kickoff_utc": "2026-06-27T03:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.3004,
-   "draw": 0.3213,
-   "away": 0.3783
+   "home": 0.3017,
+   "draw": 0.3218,
+   "away": 0.3765
   },
   "market": {
-   "home": 0.4521,
-   "draw": 0.3031,
-   "away": 0.2448,
-   "books": 18
+   "home": 0.4512,
+   "draw": 0.3027,
+   "away": 0.2461,
+   "books": 19
   },
   "blend": {
-   "home": 0.3763,
+   "home": 0.3765,
    "draw": 0.3122,
-   "away": 0.3115
+   "away": 0.3113
   },
   "opened": {
    "home": 0.3502,
@@ -1857,19 +1873,19 @@
   "stage": "group",
   "model": {
    "home": 0.089,
-   "draw": 0.2059,
-   "away": 0.7051
+   "draw": 0.2061,
+   "away": 0.7048
   },
   "market": {
-   "home": 0.0781,
-   "draw": 0.1536,
-   "away": 0.7682,
-   "books": 18
+   "home": 0.0754,
+   "draw": 0.152,
+   "away": 0.7726,
+   "books": 19
   },
   "blend": {
-   "home": 0.0836,
-   "draw": 0.1798,
-   "away": 0.7367
+   "home": 0.0822,
+   "draw": 0.1791,
+   "away": 0.7387
   },
   "opened": {
    "home": 0.0804,
@@ -1883,20 +1899,20 @@
   "kickoff_utc": "2026-06-27T21:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.6409,
-   "draw": 0.2319,
-   "away": 0.1272
+   "home": 0.6408,
+   "draw": 0.2321,
+   "away": 0.1271
   },
   "market": {
-   "home": 0.5802,
-   "draw": 0.2493,
-   "away": 0.1704,
-   "books": 18
+   "home": 0.5859,
+   "draw": 0.2467,
+   "away": 0.1674,
+   "books": 19
   },
   "blend": {
-   "home": 0.6106,
-   "draw": 0.2406,
-   "away": 0.1488
+   "home": 0.6134,
+   "draw": 0.2394,
+   "away": 0.1473
   },
   "opened": {
    "home": 0.6232,
@@ -1910,20 +1926,20 @@
   "kickoff_utc": "2026-06-27T21:00:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.0617,
-   "draw": 0.1594,
-   "away": 0.779
+   "home": 0.0623,
+   "draw": 0.1606,
+   "away": 0.7771
   },
   "market": {
-   "home": 0.094,
-   "draw": 0.1617,
-   "away": 0.7443,
-   "books": 18
+   "home": 0.0932,
+   "draw": 0.1553,
+   "away": 0.7515,
+   "books": 19
   },
   "blend": {
-   "home": 0.0778,
-   "draw": 0.1605,
-   "away": 0.7616
+   "home": 0.0777,
+   "draw": 0.1579,
+   "away": 0.7643
   },
   "opened": {
    "home": 0.0819,
@@ -1937,20 +1953,20 @@
   "kickoff_utc": "2026-06-27T23:30:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.3641,
-   "draw": 0.2912,
-   "away": 0.3447
+   "home": 0.3647,
+   "draw": 0.2918,
+   "away": 0.3435
   },
   "market": {
-   "home": 0.2727,
-   "draw": 0.2792,
-   "away": 0.4481,
-   "books": 17
+   "home": 0.2734,
+   "draw": 0.2774,
+   "away": 0.4492,
+   "books": 19
   },
   "blend": {
-   "home": 0.3184,
-   "draw": 0.2852,
-   "away": 0.3964
+   "home": 0.319,
+   "draw": 0.2846,
+   "away": 0.3963
   },
   "opened": {
    "home": 0.3029,
@@ -1964,20 +1980,20 @@
   "kickoff_utc": "2026-06-27T23:30:00+00:00",
   "stage": "group",
   "model": {
-   "home": 0.3309,
-   "draw": 0.3531,
-   "away": 0.3159
+   "home": 0.3325,
+   "draw": 0.3537,
+   "away": 0.3138
   },
   "market": {
-   "home": 0.4445,
-   "draw": 0.2682,
-   "away": 0.2872,
-   "books": 17
+   "home": 0.4452,
+   "draw": 0.2671,
+   "away": 0.2877,
+   "books": 19
   },
   "blend": {
-   "home": 0.3877,
-   "draw": 0.3107,
-   "away": 0.3016
+   "home": 0.3889,
+   "draw": 0.3104,
+   "away": 0.3007
   },
   "opened": {
    "home": 0.3076,
@@ -1991,20 +2007,20 @@
   "kickoff_utc": "2026-06-28T02:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.304,
-   "draw": 0.2994,
-   "away": 0.3966
+   "home": 0.3044,
+   "draw": 0.2998,
+   "away": 0.3958
   },
   "market": {
-   "home": 0.3146,
-   "draw": 0.3074,
-   "away": 0.378,
-   "books": 18
+   "home": 0.3096,
+   "draw": 0.3096,
+   "away": 0.3808,
+   "books": 19
   },
   "blend": {
-   "home": 0.3093,
-   "draw": 0.3034,
-   "away": 0.3873
+   "home": 0.307,
+   "draw": 0.3047,
+   "away": 0.3883
   },
   "opened": {
    "home": 0.2883,
@@ -2018,20 +2034,20 @@
   "kickoff_utc": "2026-06-28T02:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.0338,
-   "draw": 0.116,
-   "away": 0.8502
+   "home": 0.0333,
+   "draw": 0.1151,
+   "away": 0.8516
   },
   "market": {
-   "home": 0.0718,
-   "draw": 0.1391,
-   "away": 0.7891,
-   "books": 18
+   "home": 0.0719,
+   "draw": 0.1428,
+   "away": 0.7853,
+   "books": 19
   },
   "blend": {
-   "home": 0.0528,
-   "draw": 0.1275,
-   "away": 0.8196
+   "home": 0.0526,
+   "draw": 0.1289,
+   "away": 0.8184
   },
   "opened": {
    "home": 0.0533,
