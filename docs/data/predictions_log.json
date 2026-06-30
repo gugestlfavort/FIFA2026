@@ -2287,7 +2287,11 @@
    "home": 0.5092,
    "draw": 0.2717,
    "away": 0.2191
-  }
+  },
+  "result": [
+   2,
+   1
+  ]
  },
  "760488": {
   "home": "Netherlands",
@@ -2314,7 +2318,11 @@
    "home": 0.4072,
    "draw": 0.3018,
    "away": 0.291
-  }
+  },
+  "result": [
+   1,
+   1
+  ]
  },
  "760494": {
   "home": "United States",
@@ -2322,20 +2330,20 @@
   "kickoff_utc": "2026-07-02T00:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.629,
+   "home": 0.6296,
    "draw": 0.2207,
-   "away": 0.1503
+   "away": 0.1497
   },
   "market": {
-   "home": 0.7027,
-   "draw": 0.1911,
-   "away": 0.1062,
+   "home": 0.6996,
+   "draw": 0.1931,
+   "away": 0.1073,
    "books": 25
   },
   "blend": {
-   "home": 0.6659,
-   "draw": 0.2059,
-   "away": 0.1282
+   "home": 0.6646,
+   "draw": 0.2069,
+   "away": 0.1285
   },
   "opened": {
    "home": 0.6387,
@@ -2368,7 +2376,11 @@
    "home": 0.6064,
    "draw": 0.2327,
    "away": 0.1609
-  }
+  },
+  "result": [
+   1,
+   1
+  ]
  },
  "760490": {
   "home": "Ivory Coast",
@@ -2376,20 +2388,20 @@
   "kickoff_utc": "2026-06-30T17:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.246,
-   "draw": 0.2917,
-   "away": 0.4623
+   "home": 0.2461,
+   "draw": 0.2921,
+   "away": 0.4618
   },
   "market": {
-   "home": 0.2597,
-   "draw": 0.2669,
-   "away": 0.4734,
+   "home": 0.2728,
+   "draw": 0.2767,
+   "away": 0.4505,
    "books": 25
   },
   "blend": {
-   "home": 0.2529,
-   "draw": 0.2793,
-   "away": 0.4678
+   "home": 0.2594,
+   "draw": 0.2844,
+   "away": 0.4561
   },
   "opened": {
    "home": 0.2461,
@@ -2403,20 +2415,20 @@
   "kickoff_utc": "2026-06-30T21:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.7142,
-   "draw": 0.1822,
-   "away": 0.1036
+   "home": 0.714,
+   "draw": 0.1825,
+   "away": 0.1035
   },
   "market": {
-   "home": 0.7586,
-   "draw": 0.1554,
-   "away": 0.086,
+   "home": 0.746,
+   "draw": 0.1578,
+   "away": 0.0962,
    "books": 25
   },
   "blend": {
-   "home": 0.7364,
-   "draw": 0.1688,
-   "away": 0.0948
+   "home": 0.73,
+   "draw": 0.1701,
+   "away": 0.0999
   },
   "opened": {
    "home": 0.7259,
@@ -2430,20 +2442,20 @@
   "kickoff_utc": "2026-07-03T18:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.3699,
-   "draw": 0.3381,
-   "away": 0.292
+   "home": 0.3696,
+   "draw": 0.3386,
+   "away": 0.2919
   },
   "market": {
-   "home": 0.2908,
-   "draw": 0.3253,
-   "away": 0.3839,
+   "home": 0.2842,
+   "draw": 0.3301,
+   "away": 0.3857,
    "books": 25
   },
   "blend": {
-   "home": 0.3303,
-   "draw": 0.3317,
-   "away": 0.3379
+   "home": 0.3269,
+   "draw": 0.3343,
+   "away": 0.3388
   },
   "opened": {
    "home": 0.3306,
@@ -2457,20 +2469,20 @@
   "kickoff_utc": "2026-07-03T22:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.842,
-   "draw": 0.1266,
-   "away": 0.0314
+   "home": 0.8422,
+   "draw": 0.1265,
+   "away": 0.0313
   },
   "market": {
-   "home": 0.8292,
-   "draw": 0.1202,
-   "away": 0.0506,
+   "home": 0.8268,
+   "draw": 0.1223,
+   "away": 0.0509,
    "books": 25
   },
   "blend": {
-   "home": 0.8356,
-   "draw": 0.1234,
-   "away": 0.041
+   "home": 0.8345,
+   "draw": 0.1244,
+   "away": 0.0411
   },
   "opened": {
    "home": 0.8327,
@@ -2484,20 +2496,20 @@
   "kickoff_utc": "2026-07-01T01:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.3673,
-   "draw": 0.331,
-   "away": 0.3016
+   "home": 0.3669,
+   "draw": 0.3314,
+   "away": 0.3017
   },
   "market": {
-   "home": 0.4345,
-   "draw": 0.3255,
-   "away": 0.24,
+   "home": 0.4298,
+   "draw": 0.3282,
+   "away": 0.242,
    "books": 25
   },
   "blend": {
-   "home": 0.4009,
-   "draw": 0.3282,
-   "away": 0.2708
+   "home": 0.3983,
+   "draw": 0.3298,
+   "away": 0.2719
   },
   "opened": {
    "home": 0.4033,
@@ -2511,20 +2523,20 @@
   "kickoff_utc": "2026-07-01T16:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.6284,
-   "draw": 0.2606,
-   "away": 0.111
+   "home": 0.6278,
+   "draw": 0.2612,
+   "away": 0.1111
   },
   "market": {
-   "home": 0.755,
-   "draw": 0.1712,
-   "away": 0.0738,
+   "home": 0.7541,
+   "draw": 0.1736,
+   "away": 0.0724,
    "books": 23
   },
   "blend": {
-   "home": 0.6917,
-   "draw": 0.2159,
-   "away": 0.0924
+   "home": 0.6909,
+   "draw": 0.2174,
+   "away": 0.0917
   },
   "opened": {
    "home": 0.689,
@@ -2538,20 +2550,20 @@
   "kickoff_utc": "2026-07-01T20:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.4476,
-   "draw": 0.2882,
-   "away": 0.2642
+   "home": 0.4469,
+   "draw": 0.2887,
+   "away": 0.2644
   },
   "market": {
-   "home": 0.4345,
-   "draw": 0.2923,
-   "away": 0.2731,
+   "home": 0.4344,
+   "draw": 0.2941,
+   "away": 0.2715,
    "books": 25
   },
   "blend": {
-   "home": 0.4411,
-   "draw": 0.2903,
-   "away": 0.2686
+   "home": 0.4407,
+   "draw": 0.2914,
+   "away": 0.2679
   },
   "opened": {
    "home": 0.4503,
@@ -2565,20 +2577,20 @@
   "kickoff_utc": "2026-07-02T19:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.6416,
-   "draw": 0.2287,
-   "away": 0.1297
+   "home": 0.6414,
+   "draw": 0.229,
+   "away": 0.1295
   },
   "market": {
-   "home": 0.7359,
-   "draw": 0.1772,
-   "away": 0.087,
+   "home": 0.7228,
+   "draw": 0.1814,
+   "away": 0.0958,
    "books": 25
   },
   "blend": {
-   "home": 0.6887,
-   "draw": 0.203,
-   "away": 0.1083
+   "home": 0.6821,
+   "draw": 0.2052,
+   "away": 0.1127
   },
   "opened": {
    "home": 0.6955,
@@ -2592,20 +2604,20 @@
   "kickoff_utc": "2026-07-02T23:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.4896,
-   "draw": 0.278,
-   "away": 0.2324
+   "home": 0.4893,
+   "draw": 0.2784,
+   "away": 0.2322
   },
   "market": {
-   "home": 0.5358,
+   "home": 0.5418,
    "draw": 0.2664,
-   "away": 0.1978,
+   "away": 0.1918,
    "books": 25
   },
   "blend": {
-   "home": 0.5127,
-   "draw": 0.2722,
-   "away": 0.2151
+   "home": 0.5156,
+   "draw": 0.2724,
+   "away": 0.212
   },
   "opened": {
    "home": 0.5003,
@@ -2619,20 +2631,20 @@
   "kickoff_utc": "2026-07-03T03:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.4484,
-   "draw": 0.279,
-   "away": 0.2726
+   "home": 0.4477,
+   "draw": 0.2795,
+   "away": 0.2728
   },
   "market": {
-   "home": 0.4744,
-   "draw": 0.286,
-   "away": 0.2396,
+   "home": 0.4672,
+   "draw": 0.2903,
+   "away": 0.2425,
    "books": 25
   },
   "blend": {
-   "home": 0.4614,
-   "draw": 0.2825,
-   "away": 0.2561
+   "home": 0.4575,
+   "draw": 0.2849,
+   "away": 0.2576
   },
   "opened": {
    "home": 0.4785,
@@ -2646,25 +2658,52 @@
   "kickoff_utc": "2026-07-04T01:30:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.7438,
-   "draw": 0.1827,
-   "away": 0.0735
+   "home": 0.7444,
+   "draw": 0.1825,
+   "away": 0.0731
   },
   "market": {
-   "home": 0.6296,
-   "draw": 0.2393,
-   "away": 0.1311,
+   "home": 0.6284,
+   "draw": 0.2434,
+   "away": 0.1282,
    "books": 25
   },
   "blend": {
-   "home": 0.6867,
-   "draw": 0.211,
-   "away": 0.1023
+   "home": 0.6864,
+   "draw": 0.213,
+   "away": 0.1006
   },
   "opened": {
    "home": 0.6645,
    "draw": 0.2216,
    "away": 0.1138
+  }
+ },
+ "760502": {
+  "home": "Canada",
+  "away": "Morocco",
+  "kickoff_utc": "2026-07-04T17:00:00+00:00",
+  "stage": "knockout",
+  "model": {
+   "home": 0.1977,
+   "draw": 0.3198,
+   "away": 0.4825
+  },
+  "market": {
+   "home": 0.1978,
+   "draw": 0.2664,
+   "away": 0.5358,
+   "books": 23
+  },
+  "blend": {
+   "home": 0.1977,
+   "draw": 0.2931,
+   "away": 0.5092
+  },
+  "opened": {
+   "home": 0.1977,
+   "draw": 0.2931,
+   "away": 0.5092
   }
  }
 }
