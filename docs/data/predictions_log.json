@@ -2349,7 +2349,11 @@
    "home": 0.6387,
    "draw": 0.2188,
    "away": 0.1424
-  }
+  },
+  "result": [
+   2,
+   0
+  ]
  },
  "760489": {
   "home": "Germany",
@@ -2451,19 +2455,19 @@
   "stage": "knockout",
   "model": {
    "home": 0.3698,
-   "draw": 0.3386,
-   "away": 0.2916
+   "draw": 0.3387,
+   "away": 0.2915
   },
   "market": {
-   "home": 0.2839,
-   "draw": 0.3304,
-   "away": 0.3856,
+   "home": 0.2854,
+   "draw": 0.3297,
+   "away": 0.3848,
    "books": 24
   },
   "blend": {
-   "home": 0.3268,
-   "draw": 0.3345,
-   "away": 0.3386
+   "home": 0.3276,
+   "draw": 0.3342,
+   "away": 0.3382
   },
   "opened": {
    "home": 0.3306,
@@ -2477,19 +2481,19 @@
   "kickoff_utc": "2026-07-03T22:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.842,
-   "draw": 0.1267,
+   "home": 0.8421,
+   "draw": 0.1266,
    "away": 0.0313
   },
   "market": {
-   "home": 0.825,
-   "draw": 0.1242,
+   "home": 0.8285,
+   "draw": 0.1207,
    "away": 0.0508,
    "books": 24
   },
   "blend": {
-   "home": 0.8335,
-   "draw": 0.1254,
+   "home": 0.8353,
+   "draw": 0.1236,
    "away": 0.0411
   },
   "opened": {
@@ -2554,7 +2558,11 @@
    "home": 0.689,
    "draw": 0.2155,
    "away": 0.0955
-  }
+  },
+  "result": [
+   2,
+   1
+  ]
  },
  "760493": {
   "home": "Belgium",
@@ -2581,7 +2589,11 @@
    "home": 0.4503,
    "draw": 0.2906,
    "away": 0.2591
-  }
+  },
+  "result": [
+   3,
+   2
+  ]
  },
  "760497": {
   "home": "Spain",
@@ -2589,20 +2601,20 @@
   "kickoff_utc": "2026-07-02T19:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.6415,
-   "draw": 0.2291,
-   "away": 0.1295
+   "home": 0.6417,
+   "draw": 0.2289,
+   "away": 0.1294
   },
   "market": {
-   "home": 0.7228,
-   "draw": 0.1814,
-   "away": 0.0958,
+   "home": 0.7226,
+   "draw": 0.1813,
+   "away": 0.0961,
    "books": 24
   },
   "blend": {
    "home": 0.6821,
-   "draw": 0.2052,
-   "away": 0.1126
+   "draw": 0.2051,
+   "away": 0.1128
   },
   "opened": {
    "home": 0.6955,
@@ -2621,15 +2633,15 @@
    "away": 0.2323
   },
   "market": {
-   "home": 0.5378,
-   "draw": 0.2708,
-   "away": 0.1913,
+   "home": 0.5539,
+   "draw": 0.258,
+   "away": 0.1881,
    "books": 24
   },
   "blend": {
-   "home": 0.5135,
-   "draw": 0.2746,
-   "away": 0.2118
+   "home": 0.5216,
+   "draw": 0.2683,
+   "away": 0.2102
   },
   "opened": {
    "home": 0.5003,
@@ -2643,20 +2655,20 @@
   "kickoff_utc": "2026-07-03T03:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.4482,
-   "draw": 0.2794,
-   "away": 0.2724
+   "home": 0.4481,
+   "draw": 0.2793,
+   "away": 0.2725
   },
   "market": {
-   "home": 0.4691,
-   "draw": 0.2937,
-   "away": 0.2372,
+   "home": 0.4796,
+   "draw": 0.2914,
+   "away": 0.229,
    "books": 24
   },
   "blend": {
-   "home": 0.4586,
-   "draw": 0.2866,
-   "away": 0.2548
+   "home": 0.4639,
+   "draw": 0.2854,
+   "away": 0.2507
   },
   "opened": {
    "home": 0.4785,
@@ -2670,20 +2682,20 @@
   "kickoff_utc": "2026-07-04T01:30:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.744,
-   "draw": 0.1828,
+   "home": 0.7441,
+   "draw": 0.1827,
    "away": 0.0732
   },
   "market": {
-   "home": 0.6286,
-   "draw": 0.2436,
-   "away": 0.1278,
+   "home": 0.6299,
+   "draw": 0.2424,
+   "away": 0.1277,
    "books": 24
   },
   "blend": {
-   "home": 0.6863,
-   "draw": 0.2132,
-   "away": 0.1005
+   "home": 0.687,
+   "draw": 0.2125,
+   "away": 0.1004
   },
   "opened": {
    "home": 0.6645,
@@ -2697,20 +2709,20 @@
   "kickoff_utc": "2026-07-04T17:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.198,
-   "draw": 0.32,
-   "away": 0.4821
+   "home": 0.1981,
+   "draw": 0.3199,
+   "away": 0.482
   },
   "market": {
-   "home": 0.196,
-   "draw": 0.2733,
-   "away": 0.5307,
+   "home": 0.1898,
+   "draw": 0.2752,
+   "away": 0.5351,
    "books": 24
   },
   "blend": {
-   "home": 0.197,
-   "draw": 0.2966,
-   "away": 0.5064
+   "home": 0.1939,
+   "draw": 0.2975,
+   "away": 0.5085
   },
   "opened": {
    "home": 0.1977,
@@ -2724,20 +2736,20 @@
   "kickoff_utc": "2026-07-04T21:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.1283,
-   "draw": 0.2465,
-   "away": 0.6252
+   "home": 0.1286,
+   "draw": 0.2467,
+   "away": 0.6248
   },
   "market": {
-   "home": 0.0573,
-   "draw": 0.1365,
-   "away": 0.8062,
-   "books": 22
+   "home": 0.0561,
+   "draw": 0.1362,
+   "away": 0.8078,
+   "books": 23
   },
   "blend": {
-   "home": 0.0928,
-   "draw": 0.1915,
-   "away": 0.7157
+   "home": 0.0923,
+   "draw": 0.1914,
+   "away": 0.7163
   },
   "opened": {
    "home": 0.0928,
@@ -2751,25 +2763,79 @@
   "kickoff_utc": "2026-07-05T20:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.5202,
+   "home": 0.5203,
    "draw": 0.2563,
-   "away": 0.2235
+   "away": 0.2234
   },
   "market": {
-   "home": 0.5077,
-   "draw": 0.2651,
-   "away": 0.2272,
-   "books": 23
+   "home": 0.504,
+   "draw": 0.2624,
+   "away": 0.2336,
+   "books": 24
   },
   "blend": {
-   "home": 0.5139,
-   "draw": 0.2607,
-   "away": 0.2253
+   "home": 0.5122,
+   "draw": 0.2594,
+   "away": 0.2285
   },
   "opened": {
    "home": 0.5139,
    "draw": 0.2607,
    "away": 0.2253
+  }
+ },
+ "760505": {
+  "home": "Mexico",
+  "away": "England",
+  "kickoff_utc": "2026-07-06T00:00:00+00:00",
+  "stage": "knockout",
+  "model": {
+   "home": 0.2695,
+   "draw": 0.2992,
+   "away": 0.4313
+  },
+  "market": {
+   "home": 0.3196,
+   "draw": 0.3044,
+   "away": 0.376,
+   "books": 23
+  },
+  "blend": {
+   "home": 0.2946,
+   "draw": 0.3018,
+   "away": 0.4037
+  },
+  "opened": {
+   "home": 0.2946,
+   "draw": 0.3018,
+   "away": 0.4037
+  }
+ },
+ "760507": {
+  "home": "United States",
+  "away": "Belgium",
+  "kickoff_utc": "2026-07-07T00:00:00+00:00",
+  "stage": "knockout",
+  "model": {
+   "home": 0.2627,
+   "draw": 0.2564,
+   "away": 0.4809
+  },
+  "market": {
+   "home": 0.3732,
+   "draw": 0.2743,
+   "away": 0.3525,
+   "books": 23
+  },
+  "blend": {
+   "home": 0.318,
+   "draw": 0.2653,
+   "away": 0.4167
+  },
+  "opened": {
+   "home": 0.318,
+   "draw": 0.2653,
+   "away": 0.4167
   }
  }
 }
