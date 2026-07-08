@@ -2938,7 +2938,11 @@
    "home": 0.6952,
    "draw": 0.2111,
    "away": 0.0937
-  }
+  },
+  "result": [
+   3,
+   2
+  ]
  },
  "760508": {
   "home": "Switzerland",
@@ -2965,7 +2969,11 @@
    "home": 0.2735,
    "draw": 0.2936,
    "away": 0.4329
-  }
+  },
+  "result": [
+   0,
+   0
+  ]
  },
  "760510": {
   "home": "France",
@@ -2973,20 +2981,20 @@
   "kickoff_utc": "2026-07-09T20:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.4338,
-   "draw": 0.3199,
-   "away": 0.2464
+   "home": 0.4335,
+   "draw": 0.32,
+   "away": 0.2465
   },
   "market": {
-   "home": 0.6027,
-   "draw": 0.246,
-   "away": 0.1513,
+   "home": 0.6022,
+   "draw": 0.2446,
+   "away": 0.1532,
    "books": 24
   },
   "blend": {
-   "home": 0.5182,
-   "draw": 0.2829,
-   "away": 0.1988
+   "home": 0.5179,
+   "draw": 0.2823,
+   "away": 0.1999
   },
   "opened": {
    "home": 0.5214,
@@ -3001,19 +3009,19 @@
   "stage": "knockout",
   "model": {
    "home": 0.2381,
-   "draw": 0.2777,
-   "away": 0.4842
+   "draw": 0.2778,
+   "away": 0.4841
   },
   "market": {
-   "home": 0.2363,
-   "draw": 0.2587,
-   "away": 0.505,
+   "home": 0.2358,
+   "draw": 0.2561,
+   "away": 0.5081,
    "books": 24
   },
   "blend": {
-   "home": 0.2372,
-   "draw": 0.2682,
-   "away": 0.4946
+   "home": 0.237,
+   "draw": 0.2669,
+   "away": 0.4961
   },
   "opened": {
    "home": 0.247,
@@ -3027,25 +3035,52 @@
   "kickoff_utc": "2026-07-10T19:00:00+00:00",
   "stage": "knockout",
   "model": {
-   "home": 0.5445,
-   "draw": 0.2618,
+   "home": 0.5444,
+   "draw": 0.2619,
    "away": 0.1937
   },
   "market": {
-   "home": 0.5845,
-   "draw": 0.2412,
-   "away": 0.1743,
+   "home": 0.5902,
+   "draw": 0.239,
+   "away": 0.1707,
    "books": 24
   },
   "blend": {
-   "home": 0.5645,
-   "draw": 0.2515,
-   "away": 0.184
+   "home": 0.5673,
+   "draw": 0.2505,
+   "away": 0.1822
   },
   "opened": {
    "home": 0.5645,
    "draw": 0.2515,
    "away": 0.184
+  }
+ },
+ "760513": {
+  "home": "Argentina",
+  "away": "Switzerland",
+  "kickoff_utc": "2026-07-12T01:00:00+00:00",
+  "stage": "knockout",
+  "model": {
+   "home": 0.5513,
+   "draw": 0.271,
+   "away": 0.1777
+  },
+  "market": {
+   "home": 0.555,
+   "draw": 0.2705,
+   "away": 0.1746,
+   "books": 24
+  },
+  "blend": {
+   "home": 0.5531,
+   "draw": 0.2707,
+   "away": 0.1761
+  },
+  "opened": {
+   "home": 0.5531,
+   "draw": 0.2707,
+   "away": 0.1761
   }
  }
 }
