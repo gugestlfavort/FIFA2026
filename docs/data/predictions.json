@@ -1,65 +1,67 @@
 {
- "generated_utc": "2026-07-12T07:08:15.818574+00:00",
- "generated_local": "2026-07-12 09:08 CEST",
- "today_date": "2026-07-12",
+ "generated_utc": "2026-07-13T07:49:24.873316+00:00",
+ "generated_local": "2026-07-13 09:49 CEST",
+ "today_date": "2026-07-13",
  "show_dates": [
-  "2026-07-12"
+  "2026-07-14"
  ],
  "window_hours": 48,
- "is_next_matchday": false,
+ "is_next_matchday": true,
  "today": [
   {
-   "home": "Argentina",
-   "away": "Switzerland",
-   "home_flag": "\ud83c\udde6\ud83c\uddf7",
-   "away_flag": "\ud83c\udde8\ud83c\udded",
-   "kickoff_local": "03:00",
-   "date_local": "2026-07-12",
-   "kickoff_utc": "2026-07-12T01:00:00+00:00",
-   "venue": "GEHA Field at Arrowhead Stadium",
-   "city": "Kansas City, Missouri",
+   "home": "France",
+   "away": "Spain",
+   "home_flag": "\ud83c\uddeb\ud83c\uddf7",
+   "away_flag": "\ud83c\uddea\ud83c\uddf8",
+   "kickoff_local": "21:00",
+   "date_local": "2026-07-14",
+   "kickoff_utc": "2026-07-14T19:00:00+00:00",
+   "venue": "AT&T Stadium",
+   "city": "Arlington, Texas",
    "group": NaN,
    "stage": "knockout",
-   "state": "post",
-   "completed": true,
-   "result": [
-    3,
-    1
-   ],
+   "state": "pre",
+   "completed": false,
    "model": {
-    "home": 0.581,
-    "draw": 0.2577,
-    "away": 0.1613
+    "home": 0.2989,
+    "draw": 0.2987,
+    "away": 0.4024
+   },
+   "market": {
+    "home": 0.4127,
+    "draw": 0.2959,
+    "away": 0.2914,
+    "books": 24
    },
    "blend": {
-    "home": 0.581,
-    "draw": 0.2577,
-    "away": 0.1613
+    "home": 0.3558,
+    "draw": 0.2973,
+    "away": 0.3469
    },
    "top_scores": [
     {
-     "score": "1-0",
-     "p": 0.1429
-    },
-    {
-     "score": "2-0",
-     "p": 0.1234
-    },
-    {
      "score": "1-1",
-     "p": 0.1196
+     "p": 0.1392
+    },
+    {
+     "score": "1-0",
+     "p": 0.1151
+    },
+    {
+     "score": "0-0",
+     "p": 0.1086
     }
    ],
    "opened": {
-    "home": 0.5531,
-    "draw": 0.2707,
-    "away": 0.1761
+    "home": 0.3574,
+    "draw": 0.2943,
+    "away": 0.3483
    },
    "context": {
     "home_advance": 1.0,
     "away_advance": 1.0,
-    "home_champion": 0.2455,
-    "away_champion": 0.0111
+    "home_champion": 0.144,
+    "away_champion": 0.2168
    }
   }
  ],
@@ -75,7 +77,7 @@
    "sf": 0.6,
    "final": 0.4054,
    "champion": 0.2455,
-   "market_champion": 0.186
+   "market_champion": 0.1763
   },
   {
    "team": "Spain",
@@ -88,7 +90,7 @@
    "sf": 0.5011,
    "final": 0.3409,
    "champion": 0.2168,
-   "market_champion": 0.2228
+   "market_champion": 0.2234
   },
   {
    "team": "France",
@@ -101,7 +103,7 @@
    "sf": 0.4591,
    "final": 0.254,
    "champion": 0.144,
-   "market_champion": 0.3742
+   "market_champion": 0.3827
   },
   {
    "team": "England",
@@ -114,7 +116,7 @@
    "sf": 0.3733,
    "final": 0.1881,
    "champion": 0.0955,
-   "market_champion": 0.217
+   "market_champion": 0.2176
   },
   {
    "team": "Colombia",
