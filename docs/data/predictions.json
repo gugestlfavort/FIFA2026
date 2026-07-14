@@ -1,12 +1,13 @@
 {
- "generated_utc": "2026-07-13T07:49:24.873316+00:00",
- "generated_local": "2026-07-13 09:49 CEST",
- "today_date": "2026-07-13",
+ "generated_utc": "2026-07-14T06:35:44.410373+00:00",
+ "generated_local": "2026-07-14 08:35 CEST",
+ "today_date": "2026-07-14",
  "show_dates": [
-  "2026-07-14"
+  "2026-07-14",
+  "2026-07-15"
  ],
  "window_hours": 48,
- "is_next_matchday": true,
+ "is_next_matchday": false,
  "today": [
   {
    "home": "France",
@@ -28,28 +29,28 @@
     "away": 0.4024
    },
    "market": {
-    "home": 0.4127,
-    "draw": 0.2959,
-    "away": 0.2914,
-    "books": 24
+    "home": 0.4057,
+    "draw": 0.2971,
+    "away": 0.2971,
+    "books": 25
    },
    "blend": {
-    "home": 0.3558,
-    "draw": 0.2973,
-    "away": 0.3469
+    "home": 0.3523,
+    "draw": 0.2979,
+    "away": 0.3498
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1392
+     "p": 0.1395
     },
     {
      "score": "1-0",
-     "p": 0.1151
+     "p": 0.114
     },
     {
      "score": "0-0",
-     "p": 0.1086
+     "p": 0.1088
     }
    ],
    "opened": {
@@ -61,7 +62,63 @@
     "home_advance": 1.0,
     "away_advance": 1.0,
     "home_champion": 0.144,
-    "away_champion": 0.2168
+    "away_champion": 0.2169
+   }
+  },
+  {
+   "home": "England",
+   "away": "Argentina",
+   "home_flag": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+   "away_flag": "\ud83c\udde6\ud83c\uddf7",
+   "kickoff_local": "21:00",
+   "date_local": "2026-07-15",
+   "kickoff_utc": "2026-07-15T19:00:00+00:00",
+   "venue": "Mercedes-Benz Stadium",
+   "city": "Atlanta, Georgia",
+   "group": NaN,
+   "stage": "knockout",
+   "state": "pre",
+   "completed": false,
+   "model": {
+    "home": 0.2703,
+    "draw": 0.3157,
+    "away": 0.414
+   },
+   "market": {
+    "home": 0.3618,
+    "draw": 0.3239,
+    "away": 0.3143,
+    "books": 25
+   },
+   "blend": {
+    "home": 0.3161,
+    "draw": 0.3198,
+    "away": 0.3642
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.143
+    },
+    {
+     "score": "0-0",
+     "p": 0.1374
+    },
+    {
+     "score": "0-1",
+     "p": 0.1236
+    }
+   ],
+   "opened": {
+    "home": 0.3253,
+    "draw": 0.3138,
+    "away": 0.3609
+   },
+   "context": {
+    "home_advance": 1.0,
+    "away_advance": 1.0,
+    "home_champion": 0.0955,
+    "away_champion": 0.2454
    }
   }
  ],
@@ -72,12 +129,12 @@
    "group": "J",
    "elo": 2255,
    "advance": 1.0,
-   "r16": 0.9539,
-   "qf": 0.8269,
-   "sf": 0.6,
-   "final": 0.4054,
-   "champion": 0.2455,
-   "market_champion": 0.1763
+   "r16": 0.9538,
+   "qf": 0.8268,
+   "sf": 0.5998,
+   "final": 0.4052,
+   "champion": 0.2454,
+   "market_champion": 0.1726
   },
   {
    "team": "Spain",
@@ -89,8 +146,8 @@
    "qf": 0.6205,
    "sf": 0.5011,
    "final": 0.3409,
-   "champion": 0.2168,
-   "market_champion": 0.2234
+   "champion": 0.2169,
+   "market_champion": 0.2239
   },
   {
    "team": "France",
@@ -103,7 +160,7 @@
    "sf": 0.4591,
    "final": 0.254,
    "champion": 0.144,
-   "market_champion": 0.3827
+   "market_champion": 0.3823
   },
   {
    "team": "England",
@@ -114,9 +171,9 @@
    "r16": 0.8505,
    "qf": 0.5855,
    "sf": 0.3733,
-   "final": 0.1881,
+   "final": 0.1882,
    "champion": 0.0955,
-   "market_champion": 0.2176
+   "market_champion": 0.2213
   },
   {
    "team": "Colombia",
@@ -126,8 +183,8 @@
    "advance": 1.0,
    "r16": 0.8915,
    "qf": 0.5823,
-   "sf": 0.233,
-   "final": 0.1218,
+   "sf": 0.2331,
+   "final": 0.1219,
    "champion": 0.0524,
    "market_champion": 0.0
   },
@@ -359,8 +416,8 @@
    "elo": 1908,
    "advance": 1.0,
    "r16": 0.5495,
-   "qf": 0.0939,
-   "sf": 0.0303,
+   "qf": 0.094,
+   "sf": 0.0304,
    "final": 0.0086,
    "champion": 0.0013,
    "market_champion": 0.0
@@ -449,7 +506,7 @@
    "group": "H",
    "elo": 1699,
    "advance": 1.0,
-   "r16": 0.0461,
+   "r16": 0.0462,
    "qf": 0.0135,
    "sf": 0.0021,
    "final": 0.0003,
@@ -1564,7 +1621,7 @@
   "n_sims": 10000,
   "rho": -0.0633,
   "results_rows": 49505,
-  "espn_merged": 2,
+  "espn_merged": 0,
   "odds_fixtures": 2,
   "has_outright": true
  }
