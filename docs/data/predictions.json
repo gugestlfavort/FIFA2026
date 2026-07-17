@@ -1,13 +1,70 @@
 {
- "generated_utc": "2026-07-16T07:01:44.899619+00:00",
- "generated_local": "2026-07-16 09:01 CEST",
- "today_date": "2026-07-16",
+ "generated_utc": "2026-07-17T06:40:38.834475+00:00",
+ "generated_local": "2026-07-17 08:40 CEST",
+ "today_date": "2026-07-17",
  "show_dates": [
   "2026-07-18"
  ],
  "window_hours": 48,
  "is_next_matchday": true,
- "today": [],
+ "today": [
+  {
+   "home": "France",
+   "away": "England",
+   "home_flag": "\ud83c\uddeb\ud83c\uddf7",
+   "away_flag": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+   "kickoff_local": "23:00",
+   "date_local": "2026-07-18",
+   "kickoff_utc": "2026-07-18T21:00:00+00:00",
+   "venue": "Hard Rock Stadium",
+   "city": "Miami Gardens, Florida",
+   "group": NaN,
+   "stage": "knockout",
+   "state": "pre",
+   "completed": false,
+   "model": {
+    "home": 0.3757,
+    "draw": 0.305,
+    "away": 0.3193
+   },
+   "market": {
+    "home": 0.5062,
+    "draw": 0.2466,
+    "away": 0.2472,
+    "books": 25
+   },
+   "blend": {
+    "home": 0.4409,
+    "draw": 0.2758,
+    "away": 0.2833
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.1376
+    },
+    {
+     "score": "1-1",
+     "p": 0.1282
+    },
+    {
+     "score": "0-0",
+     "p": 0.1046
+    }
+   ],
+   "opened": {
+    "home": 0.4276,
+    "draw": 0.2804,
+    "away": 0.2921
+   },
+   "context": {
+    "home_advance": 1.0,
+    "away_advance": 1.0,
+    "home_champion": 0.1132,
+    "away_champion": 0.0764
+   }
+  }
+ ],
  "standings": [
   {
    "team": "Argentina",
