@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-08-25T05:06:25.658847+00:00",
- "generated_local": "2026-08-25 07:06 CEST",
- "today_date": "2026-08-25",
+ "generated_utc": "2026-08-26T05:06:41.120414+00:00",
+ "generated_local": "2026-08-26 07:06 CEST",
+ "today_date": "2026-08-26",
  "show_dates": [],
  "window_hours": 48,
  "is_next_matchday": false,
@@ -43,7 +43,7 @@
    "qf": 0.5967,
    "sf": 0.3775,
    "final": 0.1932,
-   "champion": 0.0923,
+   "champion": 0.0922,
    "market_champion": null
   },
   {
@@ -147,7 +147,7 @@
    "qf": 0.3215,
    "sf": 0.1689,
    "final": 0.0532,
-   "champion": 0.0176,
+   "champion": 0.0177,
    "market_champion": null
   },
   {
